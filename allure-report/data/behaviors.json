@@ -3,7 +3,7 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "Given I go to the website \"http://www.google.com\"",
-    "uid" : "37a7da749fbbac4e",
+    "uid" : "f35e32419546e2c0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -15,21 +15,8 @@
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
-    "name" : "Then I expect the title of the page \"Google",
-    "uid" : "5eca7b2c1ead20e7",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "unknown",
-    "time" : {
-      "start" : 1583150501637,
-      "stop" : 0,
-      "duration" : -1583150501637
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
     "name" : "Then I expect the title of the page \"Google (undefined step)",
-    "uid" : "2c1ff518ba244860",
+    "uid" : "8be0870029fe3f0c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
@@ -41,8 +28,21 @@
     "newFailed" : false,
     "parameters" : [ ]
   }, {
+    "name" : "Then I expect the title of the page \"Google",
+    "uid" : "c50775e5ffc81aea",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1583150501637,
+      "stop" : 0,
+      "duration" : -1583150501637
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
     "name" : "Given I go to the website \"http://www.google.com\" (undefined step)",
-    "uid" : "b050efee69effcf5",
+    "uid" : "d3095ca9666df490",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
@@ -55,7 +55,7 @@
     "parameters" : [ ]
   }, {
     "name" : "should have the right title",
-    "uid" : "8a7b555b1bf1ae8c",
+    "uid" : "a9a2e5782702c929",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -68,7 +68,7 @@
     "parameters" : [ "chrome" ]
   }, {
     "name" : "Given I go to the website",
-    "uid" : "50979ef8799dcdf9",
+    "uid" : "4d162a8225277975",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -81,7 +81,7 @@
     "parameters" : [ "chrome" ]
   }, {
     "name" : "Hook",
-    "uid" : "4ca287946f5c24f",
+    "uid" : "31fd641be094147",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -94,26 +94,26 @@
     "parameters" : [ "chrome" ]
   }, {
     "name" : "Given Open Google website",
-    "uid" : "379f734dc4c6a63b",
+    "uid" : "f87258aa3bed5e5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1583156842388,
-      "stop" : 1583156844033,
-      "duration" : 1645
+      "start" : 1583161448063,
+      "stop" : 1583161449807,
+      "duration" : 1744
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "Hook",
-    "uid" : "fe183a9438280291",
+    "uid" : "fbf5a4b14ce6a68b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1583156844034,
-      "stop" : 1583156844034,
-      "duration" : 0
+      "start" : 1583161449807,
+      "stop" : 1583161449808,
+      "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,

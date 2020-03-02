@@ -1,0 +1,58 @@
+{
+  "uid" : "c50775e5ffc81aea",
+  "name" : "Then I expect the title of the page \"Google",
+  "fullName" : "Title check: Get the title of webpage.Then I expect the title of the page \"Google",
+  "historyId" : "6865aae089ca78105afe0ceef02bd5e2",
+  "time" : {
+    "start" : 1583150501637,
+    "stop" : 0,
+    "duration" : -1583150501637
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Title check: Get the title of webpage"
+  }, {
+    "name" : "testClass",
+    "value" : "Title check: Get the title of webpage"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I expect the title of the page \"Google"
+  }, {
+    "name" : "package",
+    "value" : "Title check: Get the title of webpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c50775e5ffc81aea.json",
+  "parameterValues" : [ "chrome" ]
+}

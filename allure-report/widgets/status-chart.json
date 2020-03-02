@@ -1,25 +1,5 @@
 [ {
-  "uid" : "37a7da749fbbac4e",
-  "name" : "Given I go to the website \"http://www.google.com\"",
-  "time" : {
-    "start" : 1583150501636,
-    "stop" : 0,
-    "duration" : -1583150501636
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "5eca7b2c1ead20e7",
-  "name" : "Then I expect the title of the page \"Google",
-  "time" : {
-    "start" : 1583150501637,
-    "stop" : 0,
-    "duration" : -1583150501637
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "2c1ff518ba244860",
+  "uid" : "8be0870029fe3f0c",
   "name" : "Then I expect the title of the page \"Google (undefined step)",
   "time" : {
     "start" : 1583150501637,
@@ -29,47 +9,17 @@
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "fe183a9438280291",
-  "name" : "Hook",
-  "time" : {
-    "start" : 1583156844034,
-    "stop" : 1583156844034,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "379f734dc4c6a63b",
+  "uid" : "f87258aa3bed5e5",
   "name" : "Given Open Google website",
   "time" : {
-    "start" : 1583156842388,
-    "stop" : 1583156844033,
-    "duration" : 1645
+    "start" : 1583161448063,
+    "stop" : 1583161449807,
+    "duration" : 1744
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "50979ef8799dcdf9",
-  "name" : "Given I go to the website",
-  "time" : {
-    "start" : 1583156358100,
-    "stop" : 1583156361611,
-    "duration" : 3511
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8a7b555b1bf1ae8c",
-  "name" : "should have the right title",
-  "time" : {
-    "start" : 1583156148554,
-    "stop" : 1583156191998,
-    "duration" : 43444
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4ca287946f5c24f",
+  "uid" : "31fd641be094147",
   "name" : "Hook",
   "time" : {
     "start" : 1583156361611,
@@ -79,7 +29,57 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b050efee69effcf5",
+  "uid" : "fbf5a4b14ce6a68b",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1583161449807,
+    "stop" : 1583161449808,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9a2e5782702c929",
+  "name" : "should have the right title",
+  "time" : {
+    "start" : 1583156148554,
+    "stop" : 1583156191998,
+    "duration" : 43444
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f35e32419546e2c0",
+  "name" : "Given I go to the website \"http://www.google.com\"",
+  "time" : {
+    "start" : 1583150501636,
+    "stop" : 0,
+    "duration" : -1583150501636
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "c50775e5ffc81aea",
+  "name" : "Then I expect the title of the page \"Google",
+  "time" : {
+    "start" : 1583150501637,
+    "stop" : 0,
+    "duration" : -1583150501637
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "4d162a8225277975",
+  "name" : "Given I go to the website",
+  "time" : {
+    "start" : 1583156358100,
+    "stop" : 1583156361611,
+    "duration" : 3511
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3095ca9666df490",
   "name" : "Given I go to the website \"http://www.google.com\" (undefined step)",
   "time" : {
     "start" : 1583150501637,
