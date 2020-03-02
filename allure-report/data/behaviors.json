@@ -1,0 +1,122 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Given I go to the website \"http://www.google.com\"",
+    "uid" : "37a7da749fbbac4e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1583150501636,
+      "stop" : 0,
+      "duration" : -1583150501636
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Then I expect the title of the page \"Google",
+    "uid" : "5eca7b2c1ead20e7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1583150501637,
+      "stop" : 0,
+      "duration" : -1583150501637
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Then I expect the title of the page \"Google (undefined step)",
+    "uid" : "2c1ff518ba244860",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1583150501637,
+      "stop" : 1583150501637,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Given I go to the website \"http://www.google.com\" (undefined step)",
+    "uid" : "b050efee69effcf5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1583150501637,
+      "stop" : 1583150501637,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should have the right title",
+    "uid" : "8a7b555b1bf1ae8c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1583156148554,
+      "stop" : 1583156191998,
+      "duration" : 43444
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Given I go to the website",
+    "uid" : "50979ef8799dcdf9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1583156358100,
+      "stop" : 1583156361611,
+      "duration" : 3511
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Hook",
+    "uid" : "4ca287946f5c24f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1583156361611,
+      "stop" : 1583156361612,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Given Open Google website",
+    "uid" : "379f734dc4c6a63b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1583156842388,
+      "stop" : 1583156844033,
+      "duration" : 1645
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Hook",
+    "uid" : "fe183a9438280291",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1583156844034,
+      "stop" : 1583156844034,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  } ]
+}

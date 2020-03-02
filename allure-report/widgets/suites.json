@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "5bcba9dbc7ec0084f621a7c982153a94",
+    "name" : "Title check: Get the title of webpage",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 2,
+      "unknown" : 2,
+      "total" : 6
+    }
+  }, {
+    "uid" : "299ba313a6d0a1bacb6d72be7b28ad2b",
+    "name" : "Cucumber Check: open webpage",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "becc7ac0962ffd324870d76ee111bbb9",
+    "name" : "Lambdatest Demo Test",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

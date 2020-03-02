@@ -1,0 +1,87 @@
+{
+  "uid" : "e19e9c8a45933e5b",
+  "name" : "Given I go to the website",
+  "fullName" : "Title check: Get the title of webpage.Given I go to the website",
+  "historyId" : "5b6c3ab040b09c4483a438d49f7abf58",
+  "time" : {
+    "start" : 1583156199768,
+    "stop" : 1583156201320,
+    "duration" : 1552
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1583156199777,
+        "stop" : 1583156201319,
+        "duration" : 1542
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "81d197c503a992a2",
+        "name" : "Request",
+        "source" : "81d197c503a992a2.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Title check: Get the title of webpage"
+  }, {
+    "name" : "testClass",
+    "value" : "Title check: Get the title of webpage"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I go to the website"
+  }, {
+    "name" : "package",
+    "value" : "Title check: Get the title of webpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e19e9c8a45933e5b.json",
+  "parameterValues" : [ "chrome" ]
+}

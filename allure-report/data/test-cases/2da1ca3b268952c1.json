@@ -1,0 +1,56 @@
+{
+  "uid" : "2da1ca3b268952c1",
+  "name" : "Hook",
+  "fullName" : "Title check: Get the title of webpage.Hook",
+  "historyId" : "23754f9f9512ff547fd9796f17fa8f45",
+  "time" : {
+    "start" : 1583154478239,
+    "stop" : 1583154478239,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Title check: Get the title of webpage"
+  }, {
+    "name" : "testClass",
+    "value" : "Title check: Get the title of webpage"
+  }, {
+    "name" : "testMethod",
+    "value" : "Hook"
+  }, {
+    "name" : "package",
+    "value" : "Title check: Get the title of webpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2da1ca3b268952c1.json",
+  "parameterValues" : [ "chrome" ]
+}

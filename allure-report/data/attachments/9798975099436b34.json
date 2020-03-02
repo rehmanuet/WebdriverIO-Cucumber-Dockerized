@@ -1,0 +1,34 @@
+{
+  "actions": [
+    {
+      "type": "key",
+      "id": "keyboard",
+      "actions": [
+        {
+          "type": "keyDown",
+          "value": "B"
+        },
+        {
+          "type": "keyDown",
+          "value": "C"
+        },
+        {
+          "type": "keyDown",
+          "value": "N"
+        },
+        {
+          "type": "keyUp",
+          "value": "B"
+        },
+        {
+          "type": "keyUp",
+          "value": "C"
+        },
+        {
+          "type": "keyUp",
+          "value": "N"
+        }
+      ]
+    }
+  ]
+}
