@@ -1,0 +1,87 @@
+{
+  "uid" : "cab399b3805c6434",
+  "name" : "Given Open Google website",
+  "fullName" : "Cucumber Check: open webpage.Given Open Google website",
+  "historyId" : "652f5750c36e6736117f581e038a3db2",
+  "time" : {
+    "start" : 1583161448063,
+    "stop" : 1583161449807,
+    "duration" : 1744
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1583161448074,
+        "stop" : 1583161449806,
+        "duration" : 1732
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6383c9d8e3173283",
+        "name" : "Request",
+        "source" : "6383c9d8e3173283.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Cucumber Check: open webpage"
+  }, {
+    "name" : "testClass",
+    "value" : "Cucumber Check: open webpage"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given Open Google website"
+  }, {
+    "name" : "package",
+    "value" : "Cucumber Check: open webpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cab399b3805c6434.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,476 @@
+{
+  "uid" : "4f7cc96a027ee184",
+  "name" : "should book a flight",
+  "fullName" : "POM Open Kayak website and.should book a flight",
+  "historyId" : "90934387aa7b9bcf6d14639ec17d33fe",
+  "time" : {
+    "start" : 1583223315429,
+    "stop" : 1583223357152,
+    "duration" : 41723
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <div class=\"startDate _id7 _ijM _idA _ioF _ii0 _j0G _iVh\">...</div> is not clickable at point (590, 175). Other element would receive the click: <div contenteditable=\"\" id=\"oBDz-checkIn-input\" class=\"input _ihh _idE _jlv _id7 _ial _ii0 _iQj _iaj _isn _iso\" spellcheck=\"false\" aria-label=\"Check-in date input\">...</div>\n                  (Session info: chrome=80.0.3987.122)",
+  "statusTrace" : "element click intercepted: Element <div class=\"startDate _id7 _ijM _idA _ioF _ii0 _j0G _iVh\">...</div> is not clickable at point (590, 175). Other element would receive the click: <div contenteditable=\"\" id=\"oBDz-checkIn-input\" class=\"input _ihh _idE _jlv _id7 _ial _ii0 _iQj _iaj _isn _iso\" spellcheck=\"false\" aria-label=\"Check-in date input\">...</div>\n                  (Session info: chrome=80.0.3987.122)\n                    at getErrorFromResponseBody (E:\\WebdriverIO-Cucumber\\node_modules\\webdriver\\build\\utils.js:124:10)\n                    at Request._callback (E:\\WebdriverIO-Cucumber\\node_modules\\webdriver\\build\\request.js:111:64)\n                    at Request.self.callback (E:\\WebdriverIO-Cucumber\\node_modules\\request\\request.js:185:22)\n                    at Request.<anonymous> (E:\\WebdriverIO-Cucumber\\node_modules\\request\\request.js:1154:10)\n                    at IncomingMessage.<anonymous> (E:\\WebdriverIO-Cucumber\\node_modules\\request\\request.js:1076:12)\n                    at Element.runCommandWithHooks (E:\\WebdriverIO-Cucumber\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (E:\\WebdriverIO-Cucumber\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.elementErrorHandlerCallback (E:\\WebdriverIO-Cucumber\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at Object.setDate (E:\\WebdriverIO-Cucumber\\pom\\helper.js:17:26)\n                    at Context.it (E:\\WebdriverIO-Cucumber\\test\\specs\\one.js:11:26)\n                    at Context.executeSync (E:\\WebdriverIO-Cucumber\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at E:\\WebdriverIO-Cucumber\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <div class=\"startDate _id7 _ijM _idA _ioF _ii0 _j0G _iVh\">...</div> is not clickable at point (590, 175). Other element would receive the click: <div contenteditable=\"\" id=\"oBDz-checkIn-input\" class=\"input _ihh _idE _jlv _id7 _ial _ii0 _iQj _iaj _isn _iso\" spellcheck=\"false\" aria-label=\"Check-in date input\">...</div>\n                  (Session info: chrome=80.0.3987.122)",
+    "statusTrace" : "element click intercepted: Element <div class=\"startDate _id7 _ijM _idA _ioF _ii0 _j0G _iVh\">...</div> is not clickable at point (590, 175). Other element would receive the click: <div contenteditable=\"\" id=\"oBDz-checkIn-input\" class=\"input _ihh _idE _jlv _id7 _ial _ii0 _iQj _iaj _isn _iso\" spellcheck=\"false\" aria-label=\"Check-in date input\">...</div>\n                  (Session info: chrome=80.0.3987.122)\n                    at getErrorFromResponseBody (E:\\WebdriverIO-Cucumber\\node_modules\\webdriver\\build\\utils.js:124:10)\n                    at Request._callback (E:\\WebdriverIO-Cucumber\\node_modules\\webdriver\\build\\request.js:111:64)\n                    at Request.self.callback (E:\\WebdriverIO-Cucumber\\node_modules\\request\\request.js:185:22)\n                    at Request.<anonymous> (E:\\WebdriverIO-Cucumber\\node_modules\\request\\request.js:1154:10)\n                    at IncomingMessage.<anonymous> (E:\\WebdriverIO-Cucumber\\node_modules\\request\\request.js:1076:12)\n                    at Element.runCommandWithHooks (E:\\WebdriverIO-Cucumber\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (E:\\WebdriverIO-Cucumber\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.elementErrorHandlerCallback (E:\\WebdriverIO-Cucumber\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at Object.setDate (E:\\WebdriverIO-Cucumber\\pom\\helper.js:17:26)\n                    at Context.it (E:\\WebdriverIO-Cucumber\\test\\specs\\one.js:11:26)\n                    at Context.executeSync (E:\\WebdriverIO-Cucumber\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at E:\\WebdriverIO-Cucumber\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1583223315435,
+        "stop" : 1583223321064,
+        "duration" : 5629
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "af0183073c8e1b07",
+        "name" : "Request",
+        "source" : "af0183073c8e1b07.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1583223321066,
+        "stop" : 1583223321111,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "437f8710750c943d",
+        "name" : "Request",
+        "source" : "437f8710750c943d.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "43c3f59143ae72ab",
+        "name" : "Response",
+        "source" : "43c3f59143ae72ab.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/2420450a-3016-4e2b-a113-436db00d0537/click",
+      "time" : {
+        "start" : 1583223321120,
+        "stop" : 1583223323901,
+        "duration" : 2781
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1583223327903,
+        "stop" : 1583223328665,
+        "duration" : 762
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b631728d08ed5268",
+        "name" : "Request",
+        "source" : "b631728d08ed5268.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "f57fcef2b48c60ca",
+        "name" : "Response",
+        "source" : "f57fcef2b48c60ca.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/98d6a51d-e582-41a9-882e-2de68564bc51/click",
+      "time" : {
+        "start" : 1583223328668,
+        "stop" : 1583223328869,
+        "duration" : 201
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/actions",
+      "time" : {
+        "start" : 1583223336875,
+        "stop" : 1583223336930,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e0ae998256f4c593",
+        "name" : "Request",
+        "source" : "e0ae998256f4c593.json",
+        "type" : "application/json",
+        "size" : 537
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "DELETE /session/:sessionId/actions",
+      "time" : {
+        "start" : 1583223336930,
+        "stop" : 1583223336934,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/actions",
+      "time" : {
+        "start" : 1583223339935,
+        "stop" : 1583223340034,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3f7339259934bce3",
+        "name" : "Request",
+        "source" : "3f7339259934bce3.json",
+        "type" : "application/json",
+        "size" : 253
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "DELETE /session/:sessionId/actions",
+      "time" : {
+        "start" : 1583223340034,
+        "stop" : 1583223340039,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1583223343040,
+        "stop" : 1583223343072,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "863f736b67e8e8ec",
+        "name" : "Request",
+        "source" : "863f736b67e8e8ec.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "669b59097fe029da",
+        "name" : "Response",
+        "source" : "669b59097fe029da.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/2edb5c36-155b-48a2-a23e-0b39f92cd966/click",
+      "time" : {
+        "start" : 1583223343075,
+        "stop" : 1583223343139,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/actions",
+      "time" : {
+        "start" : 1583223346141,
+        "stop" : 1583223346251,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "88853dbf1bd59ca1",
+        "name" : "Request",
+        "source" : "88853dbf1bd59ca1.json",
+        "type" : "application/json",
+        "size" : 253
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "DELETE /session/:sessionId/actions",
+      "time" : {
+        "start" : 1583223346251,
+        "stop" : 1583223346255,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/actions",
+      "time" : {
+        "start" : 1583223346255,
+        "stop" : 1583223346297,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "92288a365f264e15",
+        "name" : "Request",
+        "source" : "92288a365f264e15.json",
+        "type" : "application/json",
+        "size" : 253
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "DELETE /session/:sessionId/actions",
+      "time" : {
+        "start" : 1583223346297,
+        "stop" : 1583223346303,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/actions",
+      "time" : {
+        "start" : 1583223346305,
+        "stop" : 1583223346796,
+        "duration" : 491
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dbd4ca0255704932",
+        "name" : "Request",
+        "source" : "dbd4ca0255704932.json",
+        "type" : "application/json",
+        "size" : 1545
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "DELETE /session/:sessionId/actions",
+      "time" : {
+        "start" : 1583223346796,
+        "stop" : 1583223346806,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/actions",
+      "time" : {
+        "start" : 1583223349808,
+        "stop" : 1583223349832,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db72c976ed149fd4",
+        "name" : "Request",
+        "source" : "db72c976ed149fd4.json",
+        "type" : "application/json",
+        "size" : 253
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "DELETE /session/:sessionId/actions",
+      "time" : {
+        "start" : 1583223349832,
+        "stop" : 1583223349838,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1583223352840,
+        "stop" : 1583223352859,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6cedc025d4eaec73",
+        "name" : "Request",
+        "source" : "6cedc025d4eaec73.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "7aece11cec4f9fc4",
+        "name" : "Response",
+        "source" : "7aece11cec4f9fc4.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/2edb5c36-155b-48a2-a23e-0b39f92cd966/click",
+      "time" : {
+        "start" : 1583223352863,
+        "stop" : 1583223357152,
+        "duration" : 4289
+      },
+      "status" : "broken",
+      "statusMessage" : "element click intercepted: Element <div class=\"startDate _id7 _ijM _idA _ioF _ii0 _j0G _iVh\">...</div> is not clickable at point (590, 175). Other element would receive the click: <div contenteditable=\"\" id=\"oBDz-checkIn-input\" class=\"input _ihh _idE _jlv _id7 _ial _ii0 _iQj _iaj _isn _iso\" spellcheck=\"false\" aria-label=\"Check-in date input\">...</div>\n                  (Session info: chrome=80.0.3987.122)\n                    at getErrorFromResponseBody (E:\\WebdriverIO-Cucumber\\node_modules\\webdriver\\build\\utils.js:124:10)\n                    at Request._callback (E:\\WebdriverIO-Cucumber\\node_modules\\webdriver\\build\\request.js:111:64)\n                    at Request.self.callback (E:\\WebdriverIO-Cucumber\\node_modules\\request\\request.js:185:22)\n                    at Request.<anonymous> (E:\\WebdriverIO-Cucumber\\node_modules\\request\\request.js:1154:10)\n                    at IncomingMessage.<anonymous> (E:\\WebdriverIO-Cucumber\\node_modules\\request\\request.js:1076:12)\n                    at Element.runCommandWithHooks (E:\\WebdriverIO-Cucumber\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (E:\\WebdriverIO-Cucumber\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.elementErrorHandlerCallback (E:\\WebdriverIO-Cucumber\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at Object.setDate (E:\\WebdriverIO-Cucumber\\pom\\helper.js:17:26)\n                    at Context.it (E:\\WebdriverIO-Cucumber\\test\\specs\\one.js:11:26)\n                    at Context.executeSync (E:\\WebdriverIO-Cucumber\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at E:\\WebdriverIO-Cucumber\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 21,
+    "hasContent" : true,
+    "attachmentsCount" : 15,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "POM Open Kayak website and"
+  }, {
+    "name" : "testClass",
+    "value" : "POM Open Kayak website and"
+  }, {
+    "name" : "testMethod",
+    "value" : "should book a flight"
+  }, {
+    "name" : "package",
+    "value" : "POM Open Kayak website and"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f7cc96a027ee184.json",
+  "parameterValues" : [ "chrome" ]
+}

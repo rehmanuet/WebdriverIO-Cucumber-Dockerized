@@ -1,0 +1,161 @@
+{
+  "uid" : "f58d62ecb5f38a9c",
+  "name" : "Given I go to the website",
+  "fullName" : "Title check: Get the title of webpage.Given I go to the website",
+  "historyId" : "5b6c3ab040b09c4483a438d49f7abf58",
+  "time" : {
+    "start" : 1583156358100,
+    "stop" : 1583156361611,
+    "duration" : 3511
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1583156358110,
+        "stop" : 1583156361610,
+        "duration" : 3500
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "81166e872ff54020",
+        "name" : "Request",
+        "source" : "81166e872ff54020.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Title check: Get the title of webpage"
+  }, {
+    "name" : "testClass",
+    "value" : "Title check: Get the title of webpage"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I go to the website"
+  }, {
+    "name" : "package",
+    "value" : "Title check: Get the title of webpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a30afb0617b0421c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156199768,
+        "stop" : 1583156201320,
+        "duration" : 1552
+      }
+    }, {
+      "uid" : "b77f66029a610603",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156034607,
+        "stop" : 1583156036261,
+        "duration" : 1654
+      }
+    }, {
+      "uid" : "a34bbf69ce774ec8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583155567326,
+        "stop" : 1583155569038,
+        "duration" : 1712
+      }
+    }, {
+      "uid" : "4479225572bbc46d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583155195113,
+        "stop" : 1583155196673,
+        "duration" : 1560
+      }
+    }, {
+      "uid" : "7b972ac7ba575e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583154712082,
+        "stop" : 1583154714897,
+        "duration" : 2815
+      }
+    }, {
+      "uid" : "acab2fe977873440",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583154543418,
+        "stop" : 1583154545008,
+        "duration" : 1590
+      }
+    }, {
+      "uid" : "1be2635f36ef419d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583154476525,
+        "stop" : 1583154478239,
+        "duration" : 1714
+      }
+    }, {
+      "uid" : "4e2dbb6b4072ad6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583154390207,
+        "stop" : 1583154391801,
+        "duration" : 1594
+      }
+    }, {
+      "uid" : "c23fca37737b04f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583153815330,
+        "stop" : 1583153817015,
+        "duration" : 1685
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f58d62ecb5f38a9c.json",
+  "parameterValues" : [ "chrome" ]
+}

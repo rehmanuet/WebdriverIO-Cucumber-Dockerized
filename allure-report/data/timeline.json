@@ -4,8 +4,21 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
+      "name" : "Given I go to the website",
+      "uid" : "4479225572bbc46d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583155195113,
+        "stop" : 1583155196673,
+        "duration" : 1560
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
       "name" : "Hook",
-      "uid" : "2adf71f67a160066",
+      "uid" : "8e981ebac5f8621f",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -17,8 +30,86 @@
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
+      "name" : "should have the right title",
+      "uid" : "f883de7b9d40cc57",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583147660393,
+        "stop" : 1583147715021,
+        "duration" : 54628
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should have the right title",
+      "uid" : "4d9bec59b92feb9e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583139680216,
+        "stop" : 1583139727302,
+        "duration" : 47086
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
       "name" : "Hook",
-      "uid" : "2369d564043c964",
+      "uid" : "4c4337878606ab66",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583154478239,
+        "stop" : 1583154478239,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should have the right title",
+      "uid" : "d445896a2b901dcb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156148554,
+        "stop" : 1583156191998,
+        "duration" : 43444
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "8bda387d8550de26",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583224745978,
+        "stop" : 1583224791644,
+        "duration" : 45666
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "977788f8e18b3335",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583162209114,
+        "stop" : 1583162209121,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "1251488914b758bb",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -31,280 +122,7 @@
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Hook",
-      "uid" : "edfdbe8807832412",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583156775786,
-        "stop" : 1583156775787,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should have the right title",
-      "uid" : "a979e6d2cb1b1331",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583156148554,
-        "stop" : 1583156191998,
-        "duration" : 43444
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should have the right title",
-      "uid" : "a847d6487ff18b3",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583155507992,
-        "stop" : 1583155553932,
-        "duration" : 45940
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Then I expect the title of the page \"Google",
-      "uid" : "bddf6e7011466871",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "unknown",
-      "time" : {
-        "start" : 1583150501637,
-        "stop" : 0,
-        "duration" : -1583150501637
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "b2eb2cff8d591bf0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583156034596,
-        "stop" : 1583156034603,
-        "duration" : 7
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Given I go to the website",
-      "uid" : "6b4156042b9aeab6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583154712082,
-        "stop" : 1583154714897,
-        "duration" : 2815
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should have the right title",
-      "uid" : "cd4854401f208e3c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583154645996,
-        "stop" : 1583154656000,
-        "duration" : 10004
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should have the right title",
-      "uid" : "547b02e6c667fdd5",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583136304811,
-        "stop" : 1583136350040,
-        "duration" : 45229
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "eee8864d8c13f86d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583154543406,
-        "stop" : 1583154543414,
-        "duration" : 8
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Given Open Google website",
-      "uid" : "e976770f9a6f1ace",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583162209125,
-        "stop" : 1583162212032,
-        "duration" : 2907
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "8e26f9e6da65a8d0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583150501637,
-        "stop" : 1583150501641,
-        "duration" : 4
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Given I go to the website",
-      "uid" : "32d619b57b465a45",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583155195113,
-        "stop" : 1583155196673,
-        "duration" : 1560
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Given I go to the website",
-      "uid" : "e71547fc7942864a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583156358100,
-        "stop" : 1583156361611,
-        "duration" : 3511
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "4d7b45ea84d89b4c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583161448051,
-        "stop" : 1583161448060,
-        "duration" : 9
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Given I go to the website \"http://www.google.com\"",
-      "uid" : "31001ed13f216b15",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "unknown",
-      "time" : {
-        "start" : 1583150501636,
-        "stop" : 0,
-        "duration" : -1583150501636
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should have the right title",
-      "uid" : "df8a25476d8a308b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583155878941,
-        "stop" : 1583155925665,
-        "duration" : 46724
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "d23ed61686356b38",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583161449807,
-        "stop" : 1583161449808,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should have the right title",
-      "uid" : "4b82d3d0cdeea05c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583139680216,
-        "stop" : 1583139727302,
-        "duration" : 47086
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Given I go to the website",
-      "uid" : "a7f7d7b4a2f75854",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583154390207,
-        "stop" : 1583154391801,
-        "duration" : 1594
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "822678dfdb6f05d8",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583153817015,
-        "stop" : 1583153817016,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should have the right title",
-      "uid" : "2d5632eab38bde10",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583154620191,
-        "stop" : 1583154630196,
-        "duration" : 10005
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "7ba2ea26782e92d5",
+      "uid" : "105d79f1ec4d07a7",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -317,124 +135,59 @@
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Hook",
-      "uid" : "be5007b2893c5b01",
+      "uid" : "b146418f8101f213",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1583156774193,
-        "stop" : 1583156774199,
-        "duration" : 6
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "2ec5d826bfd776e6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583162212032,
-        "stop" : 1583162212033,
+        "start" : 1583161449807,
+        "stop" : 1583161449808,
         "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "Hook",
-      "uid" : "7e2f298b859fcd1f",
+      "name" : "should book a flight",
+      "uid" : "415670f24a6d9760",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1583156685119,
-        "stop" : 1583156685119,
-        "duration" : 0
+        "start" : 1583223682827,
+        "stop" : 1583223732394,
+        "duration" : 49567
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Hook",
-      "uid" : "8649fdc43ecd88e1",
+      "uid" : "e97ab24365a8ff0e",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1583154476514,
-        "stop" : 1583154476521,
+        "start" : 1583153815318,
+        "stop" : 1583153815325,
         "duration" : 7
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "Hook",
-      "uid" : "ab49a16493f1100",
+      "name" : "should book a flight",
+      "uid" : "d5f4976ad274ef05",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1583156682061,
-        "stop" : 1583156682068,
-        "duration" : 7
+        "start" : 1583162358283,
+        "stop" : 1583162403216,
+        "duration" : 44933
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Given I go to the website",
-      "uid" : "a24b4bbf9127621c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583156034607,
-        "stop" : 1583156036261,
-        "duration" : 1654
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "e67fb5f21975dadc",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583156201321,
-        "stop" : 1583156201321,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Given I go to the website",
-      "uid" : "85da05539418da3e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583154476525,
-        "stop" : 1583154478239,
-        "duration" : 1714
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "4a3ad8dbd5a122df",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583154390196,
-        "stop" : 1583154390202,
-        "duration" : 6
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Given I go to the website",
-      "uid" : "87cab54ffd487049",
+      "uid" : "a34bbf69ce774ec8",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -447,241 +200,20 @@
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Hook",
-      "uid" : "624bf833053c8741",
+      "uid" : "c62ad899a226625c",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1583162209114,
-        "stop" : 1583162209121,
-        "duration" : 7
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Given Open Google website",
-      "uid" : "1512709202a86e7c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583161448063,
-        "stop" : 1583161449807,
-        "duration" : 1744
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "73325b78716735d6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583154714897,
-        "stop" : 1583154714898,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "a7551c38da3c2c2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583153815318,
-        "stop" : 1583153815325,
-        "duration" : 7
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "f8c361c1ef08a4c6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583155196674,
-        "stop" : 1583155196674,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Given Open Google website",
-      "uid" : "fd0f5f90c075c327",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583161271461,
-        "stop" : 1583161273304,
-        "duration" : 1843
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "4c980f0c8739c430",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583155567315,
-        "stop" : 1583155567323,
-        "duration" : 8
+        "start" : 1583156199762,
+        "stop" : 1583156199766,
+        "duration" : 4
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "should have the right title",
-      "uid" : "1aaa4cc39f132864",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583137872500,
-        "stop" : 1583137919332,
-        "duration" : 46832
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Given Open Google website",
-      "uid" : "5b19a0a12ac00f63",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583156842388,
-        "stop" : 1583156844033,
-        "duration" : 1645
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "757cf67821e99ecb",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583154545008,
-        "stop" : 1583154545008,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "12d06693efe67089",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583154712071,
-        "stop" : 1583154712077,
-        "duration" : 6
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Given I go to the website",
-      "uid" : "59f80b8ef2d38dfe",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583154543418,
-        "stop" : 1583154545008,
-        "duration" : 1590
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Given Open Google website",
-      "uid" : "fc2a1812947295ad",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583156774203,
-        "stop" : 1583156775786,
-        "duration" : 1583
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should have the right title",
-      "uid" : "8c28d1a447ef81d8",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583155244393,
-        "stop" : 1583155288492,
-        "duration" : 44099
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "4e1ed4103f886d61",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583156036261,
-        "stop" : 1583156036261,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "4130c08507ab6e6f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583156361611,
-        "stop" : 1583156361612,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "4b662c81543e1e84",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583156844034,
-        "stop" : 1583156844034,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Given Open Google website",
-      "uid" : "bfcbfdd01b6a4e16",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583156682075,
-        "stop" : 1583156685119,
-        "duration" : 3044
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should have the right title",
-      "uid" : "ffa45303bacf523f",
+      "uid" : "b38a664d7b0dc1a2",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -694,72 +226,46 @@
       "parameters" : [ "chrome" ]
     }, {
       "name" : "should have the right title",
-      "uid" : "5f099ebd7c68a097",
+      "uid" : "c22c2cb755c5e650",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1583147660393,
-        "stop" : 1583147715021,
-        "duration" : 54628
+        "start" : 1583154620191,
+        "stop" : 1583154630196,
+        "duration" : 10005
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Hook",
-      "uid" : "32eb424a7b3881e",
+      "uid" : "820841d932eafaf5",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1583156358090,
-        "stop" : 1583156358097,
+        "start" : 1583156682061,
+        "stop" : 1583156682068,
         "duration" : 7
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "Hook",
-      "uid" : "7f8bb4fa5a6877df",
+      "name" : "Given I go to the website",
+      "uid" : "acab2fe977873440",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1583156199762,
-        "stop" : 1583156199766,
-        "duration" : 4
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "f0733521b37137a2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583154391801,
-        "stop" : 1583154391801,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "a3ab5e81cb9c83af",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583155569038,
-        "stop" : 1583155569038,
-        "duration" : 0
+        "start" : 1583154543418,
+        "stop" : 1583154545008,
+        "duration" : 1590
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Given I go to the website",
-      "uid" : "7045a86a16f4dc",
+      "uid" : "c23fca37737b04f2",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -772,59 +278,20 @@
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Hook",
-      "uid" : "774d3acf1169454",
+      "uid" : "420e661cac709b5c",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1583156842376,
-        "stop" : 1583156842385,
-        "duration" : 9
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Given I go to the website",
-      "uid" : "55c3cf06d14bc9d2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583156199768,
-        "stop" : 1583156201320,
-        "duration" : 1552
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should have the right title",
-      "uid" : "71ea952a65aee0b1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583154754793,
-        "stop" : 1583154808113,
-        "duration" : 53320
+        "start" : 1583154714897,
+        "stop" : 1583154714898,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Hook",
-      "uid" : "7e1b31fbbfe3c29d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583154478239,
-        "stop" : 1583154478239,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "cbb6bc35c02f448e",
+      "uid" : "90d20b49fc6be53f",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -836,8 +303,515 @@
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
+      "name" : "Hook",
+      "uid" : "15a883fcc259fbf5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583155569038,
+        "stop" : 1583155569038,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "9a574bc9bb3f5e11",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583154543406,
+        "stop" : 1583154543414,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
       "name" : "should have the right title",
-      "uid" : "e4de22a21178b252",
+      "uid" : "4cc38ec614bdeedd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583155244393,
+        "stop" : 1583155288492,
+        "duration" : 44099
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given Open Google website",
+      "uid" : "753162c1e46ba451",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156774203,
+        "stop" : 1583156775786,
+        "duration" : 1583
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "4f7cc96a027ee184",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583223315429,
+        "stop" : 1583223357152,
+        "duration" : 41723
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "98f80838c7bbfc93",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583162212032,
+        "stop" : 1583162212033,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "6ea99187eb0d1ab2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156685119,
+        "stop" : 1583156685119,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given I go to the website",
+      "uid" : "a30afb0617b0421c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156199768,
+        "stop" : 1583156201320,
+        "duration" : 1552
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "6c302a689af283b3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583153817015,
+        "stop" : 1583153817016,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given Open Google website",
+      "uid" : "cb8b0569b6a31406",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156682075,
+        "stop" : 1583156685119,
+        "duration" : 3044
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "361f4980d4f14fa0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583154476514,
+        "stop" : 1583154476521,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should have the right title",
+      "uid" : "ada05184335978d1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583137872500,
+        "stop" : 1583137919332,
+        "duration" : 46832
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should have the right title",
+      "uid" : "e91b94687ae7ff2a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583154645996,
+        "stop" : 1583154656000,
+        "duration" : 10004
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "9ce43783b354ce6c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583162242925,
+        "stop" : 1583162289617,
+        "duration" : 46692
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given Open Google website",
+      "uid" : "dabadf373420c86",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583162209125,
+        "stop" : 1583162212032,
+        "duration" : 2907
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "48acd609471d504",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583161448051,
+        "stop" : 1583161448060,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "9a5623d721a0d944",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156036261,
+        "stop" : 1583156036261,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "534f046f8e69c4b5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156842376,
+        "stop" : 1583156842385,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "c9a5fcb727661759",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583225551571,
+        "stop" : 1583225608499,
+        "duration" : 56928
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "3b3d2bf64be9072",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583223838875,
+        "stop" : 1583223884276,
+        "duration" : 45401
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should have the right title",
+      "uid" : "5432cadc8a5d474",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583154754793,
+        "stop" : 1583154808113,
+        "duration" : 53320
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given Open Google website",
+      "uid" : "60fb6f86fd0d151d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156842388,
+        "stop" : 1583156844033,
+        "duration" : 1645
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given I go to the website",
+      "uid" : "1be2635f36ef419d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583154476525,
+        "stop" : 1583154478239,
+        "duration" : 1714
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given I go to the website",
+      "uid" : "7b972ac7ba575e7a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583154712082,
+        "stop" : 1583154714897,
+        "duration" : 2815
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given I go to the website \"http://www.google.com\"",
+      "uid" : "80da9d279175c50d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1583150501636,
+        "stop" : 0,
+        "duration" : -1583150501636
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given Open Google website",
+      "uid" : "6d0cdfd876462cc8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583221700457,
+        "stop" : 1583221702061,
+        "duration" : 1604
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should have the right title",
+      "uid" : "416ca98c889d8ebe",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583155878941,
+        "stop" : 1583155925665,
+        "duration" : 46724
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should have the right title",
+      "uid" : "b45a9d620db299c0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583136304811,
+        "stop" : 1583136350040,
+        "duration" : 45229
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "bd8961770fcc4b4d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583224552652,
+        "stop" : 1583224600038,
+        "duration" : 47386
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given I go to the website",
+      "uid" : "4e2dbb6b4072ad6a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583154390207,
+        "stop" : 1583154391801,
+        "duration" : 1594
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "e0f20a2c84d7016b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583150501637,
+        "stop" : 1583150501641,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "c99ddc579586341f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156361611,
+        "stop" : 1583156361612,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "66557be687949ba5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156034596,
+        "stop" : 1583156034603,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then I expect the title of the page \"Google",
+      "uid" : "16e8e71f8836054c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1583150501637,
+        "stop" : 0,
+        "duration" : -1583150501637
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "a2d90188797843a1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583226186894,
+        "stop" : 1583226232662,
+        "duration" : 45768
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given Open Google website",
+      "uid" : "71b558425a5cd302",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583225722820,
+        "stop" : 1583225724447,
+        "duration" : 1627
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "dc6746b421eaae03",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583154391801,
+        "stop" : 1583154391801,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "200cd0efbfdea2b6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583154712071,
+        "stop" : 1583154712077,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "ce791822730a6969",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583225722808,
+        "stop" : 1583225722815,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should have the right title",
+      "uid" : "436491f42e773af8",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -848,11 +822,232 @@
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "58331b67beb68470",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156775786,
+        "stop" : 1583156775787,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "1da7f514bb645ba1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583154390196,
+        "stop" : 1583154390202,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "41576a1f545c433f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583221700446,
+        "stop" : 1583221700453,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given Open Google website",
+      "uid" : "e10fe4c69139e67f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583161271461,
+        "stop" : 1583161273304,
+        "duration" : 1843
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "2224778efbe123da",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156358090,
+        "stop" : 1583156358097,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "4aa5c11d4b1ed5af",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583221702061,
+        "stop" : 1583221702062,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given Open Google website",
+      "uid" : "cab399b3805c6434",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583161448063,
+        "stop" : 1583161449807,
+        "duration" : 1744
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "735c67c61403040d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583155567315,
+        "stop" : 1583155567323,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "256ff8b256cdcfce",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583154545008,
+        "stop" : 1583154545008,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "53736a63d8197036",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583225724447,
+        "stop" : 1583225724448,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given I go to the website",
+      "uid" : "b77f66029a610603",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156034607,
+        "stop" : 1583156036261,
+        "duration" : 1654
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "a3ae7703c4e776dc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583155196674,
+        "stop" : 1583155196674,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given I go to the website",
+      "uid" : "f58d62ecb5f38a9c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156358100,
+        "stop" : 1583156361611,
+        "duration" : 3511
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "4da12eda416a9665",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156201321,
+        "stop" : 1583156201321,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should have the right title",
+      "uid" : "afcf1a9465d0c9bd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583155507992,
+        "stop" : 1583155553932,
+        "duration" : 45940
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "395b2afb4cb2e4ca",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156774193,
+        "stop" : 1583156774199,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "ce4a3203ac09d146",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156844034,
+        "stop" : 1583156844034,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
   }, {
-    "name" : "Given I go to the website \"http://www.google.com\" (undefined step)",
-    "uid" : "8c1d3217bfd8cf9d",
+    "name" : "Then I expect the title of the page \"Google (undefined step)",
+    "uid" : "f7fd4045f159cc46",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -864,8 +1059,8 @@
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Then I expect the title of the page \"Google (undefined step)",
-    "uid" : "f605c6143467ad3a",
+    "name" : "Given I go to the website \"http://www.google.com\" (undefined step)",
+    "uid" : "dc9a4b7b04b6e9d8",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {

@@ -1,0 +1,145 @@
+{
+  "uid" : "71b558425a5cd302",
+  "name" : "Given Open Google website",
+  "fullName" : "Cucumber Check: open webpage.Given Open Google website",
+  "historyId" : "652f5750c36e6736117f581e038a3db2",
+  "time" : {
+    "start" : 1583225722820,
+    "stop" : 1583225724447,
+    "duration" : 1627
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1583225722827,
+        "stop" : 1583225724446,
+        "duration" : 1619
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3af45b59265ddbcb",
+        "name" : "Request",
+        "source" : "3af45b59265ddbcb.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Cucumber Check: open webpage"
+  }, {
+    "name" : "testClass",
+    "value" : "Cucumber Check: open webpage"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given Open Google website"
+  }, {
+    "name" : "package",
+    "value" : "Cucumber Check: open webpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6d0cdfd876462cc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583221700457,
+        "stop" : 1583221702061,
+        "duration" : 1604
+      }
+    }, {
+      "uid" : "dabadf373420c86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583162209125,
+        "stop" : 1583162212032,
+        "duration" : 2907
+      }
+    }, {
+      "uid" : "cab399b3805c6434",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583161448063,
+        "stop" : 1583161449807,
+        "duration" : 1744
+      }
+    }, {
+      "uid" : "e10fe4c69139e67f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583161271461,
+        "stop" : 1583161273304,
+        "duration" : 1843
+      }
+    }, {
+      "uid" : "60fb6f86fd0d151d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156842388,
+        "stop" : 1583156844033,
+        "duration" : 1645
+      }
+    }, {
+      "uid" : "753162c1e46ba451",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156774203,
+        "stop" : 1583156775786,
+        "duration" : 1583
+      }
+    }, {
+      "uid" : "cb8b0569b6a31406",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583156682075,
+        "stop" : 1583156685119,
+        "duration" : 3044
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71b558425a5cd302.json",
+  "parameterValues" : [ "chrome" ]
+}

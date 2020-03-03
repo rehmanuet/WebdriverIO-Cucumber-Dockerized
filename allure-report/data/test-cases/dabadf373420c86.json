@@ -1,0 +1,87 @@
+{
+  "uid" : "dabadf373420c86",
+  "name" : "Given Open Google website",
+  "fullName" : "Cucumber Check: open webpage.Given Open Google website",
+  "historyId" : "652f5750c36e6736117f581e038a3db2",
+  "time" : {
+    "start" : 1583162209125,
+    "stop" : 1583162212032,
+    "duration" : 2907
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1583162209137,
+        "stop" : 1583162212030,
+        "duration" : 2893
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ccaabb3b8bbf5760",
+        "name" : "Request",
+        "source" : "ccaabb3b8bbf5760.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Cucumber Check: open webpage"
+  }, {
+    "name" : "testClass",
+    "value" : "Cucumber Check: open webpage"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given Open Google website"
+  }, {
+    "name" : "package",
+    "value" : "Cucumber Check: open webpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dabadf373420c86.json",
+  "parameterValues" : [ "chrome" ]
+}
