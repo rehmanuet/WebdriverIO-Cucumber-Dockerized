@@ -1,25 +1,5 @@
 [ {
-  "uid" : "dc9a4b7b04b6e9d8",
-  "name" : "Given I go to the website \"http://www.google.com\" (undefined step)",
-  "time" : {
-    "start" : 1583150501637,
-    "stop" : 1583150501637,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "bd8961770fcc4b4d",
-  "name" : "should book a flight",
-  "time" : {
-    "start" : 1583224552652,
-    "stop" : 1583224600038,
-    "duration" : 47386
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c99ddc579586341f",
+  "uid" : "ef9f5195dce53760",
   "name" : "Hook",
   "time" : {
     "start" : 1583156361611,
@@ -29,17 +9,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d445896a2b901dcb",
-  "name" : "should have the right title",
-  "time" : {
-    "start" : 1583156148554,
-    "stop" : 1583156191998,
-    "duration" : 43444
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d5f4976ad274ef05",
+  "uid" : "f89587b57e095029",
   "name" : "should book a flight",
   "time" : {
     "start" : 1583162358283,
@@ -49,7 +19,47 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "71b558425a5cd302",
+  "uid" : "5556af92d9149dfd",
+  "name" : "Given I go to the website",
+  "time" : {
+    "start" : 1583156358100,
+    "stop" : 1583156361611,
+    "duration" : 3511
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ccb0e3a8160165b6",
+  "name" : "should have the right title",
+  "time" : {
+    "start" : 1583156148554,
+    "stop" : 1583156191998,
+    "duration" : 43444
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bc25374883314d4",
+  "name" : "Given I go to the website \"http://www.google.com\" (undefined step)",
+  "time" : {
+    "start" : 1583150501637,
+    "stop" : 1583150501637,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e9cbee0600e96443",
+  "name" : "should book a flight",
+  "time" : {
+    "start" : 1583224552652,
+    "stop" : 1583224600038,
+    "duration" : 47386
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1632e51401a6f3e7",
   "name" : "Given Open Google website",
   "time" : {
     "start" : 1583225722820,
@@ -59,17 +69,17 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "16e8e71f8836054c",
-  "name" : "Then I expect the title of the page \"Google",
+  "uid" : "aac294c59b280a86",
+  "name" : "should book a flight",
   "time" : {
-    "start" : 1583150501637,
-    "stop" : 0,
-    "duration" : -1583150501637
+    "start" : 1583234121113,
+    "stop" : 1583234170805,
+    "duration" : 49692
   },
-  "status" : "unknown",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f7fd4045f159cc46",
+  "uid" : "c361a3cc9beebfd2",
   "name" : "Then I expect the title of the page \"Google (undefined step)",
   "time" : {
     "start" : 1583150501637,
@@ -79,7 +89,7 @@
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "80da9d279175c50d",
+  "uid" : "5aa686a01057973d",
   "name" : "Given I go to the website \"http://www.google.com\"",
   "time" : {
     "start" : 1583150501636,
@@ -89,17 +99,7 @@
   "status" : "unknown",
   "severity" : "normal"
 }, {
-  "uid" : "a2d90188797843a1",
-  "name" : "should book a flight",
-  "time" : {
-    "start" : 1583226186894,
-    "stop" : 1583226232662,
-    "duration" : 45768
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "53736a63d8197036",
+  "uid" : "3fcf7c244a1a4a37",
   "name" : "Hook",
   "time" : {
     "start" : 1583225724447,
@@ -109,13 +109,13 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f58d62ecb5f38a9c",
-  "name" : "Given I go to the website",
+  "uid" : "5ffe2c57f4678340",
+  "name" : "Then I expect the title of the page \"Google",
   "time" : {
-    "start" : 1583156358100,
-    "stop" : 1583156361611,
-    "duration" : 3511
+    "start" : 1583150501637,
+    "stop" : 0,
+    "duration" : -1583150501637
   },
-  "status" : "passed",
+  "status" : "unknown",
   "severity" : "normal"
 } ]

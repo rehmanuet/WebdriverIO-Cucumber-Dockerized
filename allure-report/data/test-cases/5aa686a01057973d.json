@@ -1,0 +1,58 @@
+{
+  "uid" : "5aa686a01057973d",
+  "name" : "Given I go to the website \"http://www.google.com\"",
+  "fullName" : "Title check: Get the title of webpage.Given I go to the website \"http://www.google.com\"",
+  "historyId" : "64a3c6478ff6c1c28f42fe48727142d3",
+  "time" : {
+    "start" : 1583150501636,
+    "stop" : 0,
+    "duration" : -1583150501636
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Title check: Get the title of webpage"
+  }, {
+    "name" : "testClass",
+    "value" : "Title check: Get the title of webpage"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I go to the website \"http://www.google.com\""
+  }, {
+    "name" : "package",
+    "value" : "Title check: Get the title of webpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5aa686a01057973d.json",
+  "parameterValues" : [ "chrome" ]
+}
