@@ -216,15 +216,12 @@ exports.config = {
      */
     // afterFeature: function (uri, feature, scenarios) {
     // },
-    before: function() {
+    // before: function() {
         /**
          * Setup the Chai assertion framework
          */
-        const chai = require('chai');
-        global.expect = chai.expect;
-        global.assert = chai.assert;
-        global.should = chai.should();
-    }
+     
+    // }
     /**
      * Runs after a WebdriverIO command gets executed
      * @param {String} commandName hook command name

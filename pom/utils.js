@@ -15,7 +15,6 @@ var hotel = {
         return myEndDate.toJSON().split("T")[0]
     },
     formatingDates: function(input) {
-        //
         var pattern = /(\d{4})\-(\d{2})\-(\d{2})/;
         if (!input || !input.match(pattern)) {
             return null;

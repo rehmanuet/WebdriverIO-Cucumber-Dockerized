@@ -4,8 +4,6 @@ var obj2 = require('../pom/utils.js')
 var hotel_page = {
     startSearch:  () => {
         obj2.hotelPage().click()
-        browser.waitUntil(() => {
-            return obj2.origin().getText() === 'Enter a city, hotel, airport, address or landmark'}, 5000);
         obj2.origin().click()
         browser.pause(8000)
         browser.keys("BCN")
