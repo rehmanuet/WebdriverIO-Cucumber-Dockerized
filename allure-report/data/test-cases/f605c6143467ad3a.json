@@ -1,0 +1,48 @@
+{
+  "uid" : "f605c6143467ad3a",
+  "name" : "Then I expect the title of the page \"Google (undefined step)",
+  "fullName" : "Title check: Get the title of webpage.Then I expect the title of the page \"Google (undefined step)",
+  "historyId" : "de2bb434581e8b0e7925d150089c2e2e",
+  "time" : {
+    "start" : 1583150501637,
+    "stop" : 1583150501637,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Title check: Get the title of webpage"
+  }, {
+    "name" : "testClass",
+    "value" : "Title check: Get the title of webpage"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I expect the title of the page \"Google (undefined step)"
+  }, {
+    "name" : "package",
+    "value" : "Title check: Get the title of webpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f605c6143467ad3a.json",
+  "parameterValues" : [ ]
+}

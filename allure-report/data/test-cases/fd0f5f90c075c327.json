@@ -1,0 +1,87 @@
+{
+  "uid" : "fd0f5f90c075c327",
+  "name" : "Given Open Google website",
+  "fullName" : "Cucumber Check: open webpage.Given Open Google website",
+  "historyId" : "652f5750c36e6736117f581e038a3db2",
+  "time" : {
+    "start" : 1583161271461,
+    "stop" : 1583161273304,
+    "duration" : 1843
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1583161271470,
+        "stop" : 1583161273303,
+        "duration" : 1833
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f34c19eb4ff6de27",
+        "name" : "Request",
+        "source" : "f34c19eb4ff6de27.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Cucumber Check: open webpage"
+  }, {
+    "name" : "testClass",
+    "value" : "Cucumber Check: open webpage"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given Open Google website"
+  }, {
+    "name" : "package",
+    "value" : "Cucumber Check: open webpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd0f5f90c075c327.json",
+  "parameterValues" : [ "chrome" ]
+}

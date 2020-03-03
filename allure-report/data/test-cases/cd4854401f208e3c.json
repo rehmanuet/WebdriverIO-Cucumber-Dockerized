@@ -1,0 +1,175 @@
+{
+  "uid" : "cd4854401f208e3c",
+  "name" : "should have the right title",
+  "fullName" : "Lambdatest Demo Test.should have the right title",
+  "historyId" : "7b15aa08740c0535ad6dfcf1c3ca891",
+  "time" : {
+    "start" : 1583154645996,
+    "stop" : 1583154656000,
+    "duration" : 10004
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (E:\\wd\\test\\specs\\basic.js)",
+  "statusTrace" : "Error: Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (E:\\wd\\test\\specs\\basic.js)\n                    at Test.Runnable._timeoutError (E:\\wd\\node_modules\\mocha\\lib\\runnable.js:463:10)\n                    at Timeout.<anonymous> (E:\\wd\\node_modules\\mocha\\lib\\runnable.js:267:24)\n                    at ontimeout (timers.js:436:11)\n                    at tryOnTimeout (timers.js:300:5)\n                    at listOnTimeout (timers.js:263:5)\n                    at Timer.processTimers (timers.js:223:10)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (E:\\wd\\test\\specs\\basic.js)",
+    "statusTrace" : "Error: Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (E:\\wd\\test\\specs\\basic.js)\n                    at Test.Runnable._timeoutError (E:\\wd\\node_modules\\mocha\\lib\\runnable.js:463:10)\n                    at Timeout.<anonymous> (E:\\wd\\node_modules\\mocha\\lib\\runnable.js:267:24)\n                    at ontimeout (timers.js:436:11)\n                    at tryOnTimeout (timers.js:300:5)\n                    at listOnTimeout (timers.js:263:5)\n                    at Timer.processTimers (timers.js:223:10)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1583154646002,
+        "stop" : 1583154650452,
+        "duration" : 4450
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e76c1a7a001c0cbb",
+        "name" : "Request",
+        "source" : "e76c1a7a001c0cbb.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1583154650454,
+        "stop" : 1583154650562,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc79fceae7b28359",
+        "name" : "Request",
+        "source" : "fc79fceae7b28359.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "5b5655a24736ca42",
+        "name" : "Response",
+        "source" : "5b5655a24736ca42.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/c2c3fc82-4720-494a-826a-560fa7f49eed/click",
+      "time" : {
+        "start" : 1583154650572,
+        "stop" : 1583154651395,
+        "duration" : 823
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1583154653428,
+        "stop" : 1583154654115,
+        "duration" : 687
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8fe16b4b817fbf3e",
+        "name" : "Request",
+        "source" : "8fe16b4b817fbf3e.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "85b9ef4bb69a9e8",
+        "name" : "Response",
+        "source" : "85b9ef4bb69a9e8.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/56fd2b56-26ff-4764-b758-efdecfc7e6f8/click",
+      "time" : {
+        "start" : 1583154654118,
+        "stop" : 1583154654372,
+        "duration" : 254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Lambdatest Demo Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Lambdatest Demo Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have the right title"
+  }, {
+    "name" : "package",
+    "value" : "Lambdatest Demo Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd4854401f208e3c.json",
+  "parameterValues" : [ "chrome" ]
+}
