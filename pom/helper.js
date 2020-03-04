@@ -9,7 +9,6 @@ var hotel_page = {
         browser.keys("BCN")
          browser.pause(3000)
         browser.keys("\uE007"); 
-        browser.pause(3000)
     },
     setDate:  () => {
         obj2.firstDate().click()
@@ -21,9 +20,7 @@ var hotel_page = {
         var myEndDate = obj2.formatingDates(obj2.endDate())
 
         browser.keys(myEndDate);
-        browser.pause(3000)
 
-        browser.pause(3000)
     },
     endSearch:  () => {
         obj2.searchButton().click()

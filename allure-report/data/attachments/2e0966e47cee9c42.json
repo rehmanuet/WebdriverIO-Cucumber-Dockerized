@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//*[contains(@title, \"Search hotels\")]"
-}

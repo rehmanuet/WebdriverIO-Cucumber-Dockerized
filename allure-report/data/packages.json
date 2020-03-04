@@ -2,161 +2,88 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "Title check: Get the title of webpage",
-    "children" : [ {
-      "name" : "Given I go to the website \"http://www.google.com\"",
-      "uid" : "5aa686a01057973d",
-      "parentUid" : "d194c338921b8f32eaa600d9b2c927f0",
-      "status" : "unknown",
-      "time" : {
-        "start" : 1583150501636,
-        "stop" : 0,
-        "duration" : -1583150501636
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Given I go to the website \"http://www.google.com\" (undefined step)",
-      "uid" : "1bc25374883314d4",
-      "parentUid" : "d194c338921b8f32eaa600d9b2c927f0",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1583150501637,
-        "stop" : 1583150501637,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Then I expect the title of the page \"Google",
-      "uid" : "5ffe2c57f4678340",
-      "parentUid" : "d194c338921b8f32eaa600d9b2c927f0",
-      "status" : "unknown",
-      "time" : {
-        "start" : 1583150501637,
-        "stop" : 0,
-        "duration" : -1583150501637
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Then I expect the title of the page \"Google (undefined step)",
-      "uid" : "c361a3cc9beebfd2",
-      "parentUid" : "d194c338921b8f32eaa600d9b2c927f0",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1583150501637,
-        "stop" : 1583150501637,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Given I go to the website",
-      "uid" : "5556af92d9149dfd",
-      "parentUid" : "d194c338921b8f32eaa600d9b2c927f0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583156358100,
-        "stop" : 1583156361611,
-        "duration" : 3511
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "ef9f5195dce53760",
-      "parentUid" : "d194c338921b8f32eaa600d9b2c927f0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583156361611,
-        "stop" : 1583156361612,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "d194c338921b8f32eaa600d9b2c927f0"
-  }, {
-    "name" : "Lambdatest Demo Test",
-    "children" : [ {
-      "name" : "should have the right title",
-      "uid" : "ccb0e3a8160165b6",
-      "parentUid" : "1fb9dbd28a38e219854930f7065706ee",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583156148554,
-        "stop" : 1583156191998,
-        "duration" : 43444
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "1fb9dbd28a38e219854930f7065706ee"
-  }, {
-    "name" : "Open Kayak website and",
+    "name" : "test",
     "children" : [ {
       "name" : "should book a flight",
-      "uid" : "f89587b57e095029",
-      "parentUid" : "4504fe1de297098a6b0b7502ca98595b",
-      "status" : "passed",
+      "uid" : "3908c25e2abfc433",
+      "parentUid" : "d662795e8d349f9b5595bf62f43ea7ae",
+      "status" : "broken",
       "time" : {
-        "start" : 1583162358283,
-        "stop" : 1583162403216,
-        "duration" : 44933
+        "start" : 1583327902648,
+        "stop" : 1583327933338,
+        "duration" : 30690
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     } ],
-    "uid" : "4504fe1de297098a6b0b7502ca98595b"
+    "uid" : "d662795e8d349f9b5595bf62f43ea7ae"
   }, {
-    "name" : "POM Open Kayak website and",
+    "name" : "Open Kayak (POM)",
     "children" : [ {
       "name" : "should book a flight",
-      "uid" : "e9cbee0600e96443",
-      "parentUid" : "c9adf7b7dd2828fa7a7b51e92b3bbcf0",
+      "uid" : "9254f846bebf3d5f",
+      "parentUid" : "94ef7455683e16e9bf10c23910d53b6b",
       "status" : "passed",
       "time" : {
-        "start" : 1583224552652,
-        "stop" : 1583224600038,
-        "duration" : 47386
+        "start" : 1583331708937,
+        "stop" : 1583331744512,
+        "duration" : 35575
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     } ],
-    "uid" : "c9adf7b7dd2828fa7a7b51e92b3bbcf0"
+    "uid" : "94ef7455683e16e9bf10c23910d53b6b"
   }, {
     "name" : "Cucumber Check: open webpage",
     "children" : [ {
       "name" : "Given Open Google website",
-      "uid" : "1632e51401a6f3e7",
+      "uid" : "2046bc81c671d914",
       "parentUid" : "0082af5bc736fdee17cdfa598e28e07f",
       "status" : "passed",
       "time" : {
-        "start" : 1583225722820,
-        "stop" : 1583225724447,
-        "duration" : 1627
+        "start" : 1583331963229,
+        "stop" : 1583331966760,
+        "duration" : 3531
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When User type the keyword NorthBay",
+      "uid" : "342b5585b2fc20d5",
+      "parentUid" : "0082af5bc736fdee17cdfa598e28e07f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583331966760,
+        "stop" : 1583331966940,
+        "duration" : 180
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then Click on Search",
+      "uid" : "3a3b0a976cb6a2f0",
+      "parentUid" : "0082af5bc736fdee17cdfa598e28e07f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583331966940,
+        "stop" : 1583331977001,
+        "duration" : 10061
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Hook",
-      "uid" : "3fcf7c244a1a4a37",
+      "uid" : "bf483794cb5fc30a",
       "parentUid" : "0082af5bc736fdee17cdfa598e28e07f",
       "status" : "passed",
       "time" : {
-        "start" : 1583225724447,
-        "stop" : 1583225724448,
+        "start" : 1583331977001,
+        "stop" : 1583331977002,
         "duration" : 1
       },
       "flaky" : false,
@@ -164,22 +91,5 @@
       "parameters" : [ "chrome" ]
     } ],
     "uid" : "0082af5bc736fdee17cdfa598e28e07f"
-  }, {
-    "name" : "Open Kayak (POM)",
-    "children" : [ {
-      "name" : "should book a flight",
-      "uid" : "aac294c59b280a86",
-      "parentUid" : "94ef7455683e16e9bf10c23910d53b6b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583234121113,
-        "stop" : 1583234170805,
-        "duration" : 49692
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "94ef7455683e16e9bf10c23910d53b6b"
   } ]
 }

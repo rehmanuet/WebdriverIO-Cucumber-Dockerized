@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//*[contains(@id, \"fieldGridLocationCol\")]"
-}

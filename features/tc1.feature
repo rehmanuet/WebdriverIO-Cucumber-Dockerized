@@ -4,5 +4,5 @@ Feature: Cucumber Check
 
 Scenario: open webpage
   Given Open Google website
-  When Type the keyword NorthBay
+  When User type the keyword NorthBay
   Then Click on Search
