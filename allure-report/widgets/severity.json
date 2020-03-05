@@ -1,5 +1,15 @@
 [ {
-  "uid" : "55c33fb84f338f0a",
+  "uid" : "7a2e3fe0c5b7f09e",
+  "name" : "should book a flight",
+  "time" : {
+    "start" : 1583411758683,
+    "stop" : 1583411758684,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ed6229f17677218d",
   "name" : "should book a flight",
   "time" : {
     "start" : 1583327902648,
@@ -9,52 +19,52 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "6fbcbec6c617cede",
+  "uid" : "e319d13cf9f27afd",
+  "name" : "Given Open Google website",
+  "time" : {
+    "start" : 1583411999384,
+    "stop" : 1583412001579,
+    "duration" : 2195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "128e7db3db53de32",
   "name" : "should book a flight",
   "time" : {
-    "start" : 1583331708937,
-    "stop" : 1583331744512,
-    "duration" : 35575
+    "start" : 1583411878747,
+    "stop" : 1583411916024,
+    "duration" : 37277
   },
-  "status" : "passed",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "517570888d34321e",
-  "name" : "Then Click on Search",
-  "time" : {
-    "start" : 1583398693225,
-    "stop" : 1583398702916,
-    "duration" : 9691
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "90470c1b70a56be5",
+  "uid" : "adae7a941bd35b1",
   "name" : "When User type the keyword NorthBay",
   "time" : {
-    "start" : 1583398693058,
-    "stop" : 1583398693225,
+    "start" : 1583412001579,
+    "stop" : 1583412001746,
     "duration" : 167
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d465ad9797884c87",
-  "name" : "Given Open Google website",
+  "uid" : "aae227c64445072d",
+  "name" : "Then Click on Search",
   "time" : {
-    "start" : 1583398691432,
-    "stop" : 1583398693058,
-    "duration" : 1626
+    "start" : 1583412001746,
+    "stop" : 1583412011613,
+    "duration" : 9867
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e7cc1225cb9dd65c",
+  "uid" : "89f94d3452a39af4",
   "name" : "Hook",
   "time" : {
-    "start" : 1583398702916,
-    "stop" : 1583398702917,
-    "duration" : 1
+    "start" : 1583412011614,
+    "stop" : 1583412011614,
+    "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"

@@ -7,7 +7,7 @@
       "name" : "element (\".example #elements .added-manually\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "should book a flight",
-        "uid" : "55c33fb84f338f0a",
+        "uid" : "ed6229f17677218d",
         "parentUid" : "abe01d66a24756765cec0d13e09e4e23",
         "status" : "broken",
         "time" : {
