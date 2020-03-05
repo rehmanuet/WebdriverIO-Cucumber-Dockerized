@@ -5,13 +5,13 @@ POC of WebdriverIO on React-Based application with Allure, Mocha, and Cucumber
 ## Features
 
 ```
-1- Implementation of React Based Application with Page object Model(3 - Layer)
+1- Implementation of React Based Application with Page object Model(3 - Layers)
 2- Chai Assertion with Promises Handling
 3- Mocha Framework with the blend of Jasmine Testing Framework
 4- Cucumber Layer with Chai Assertion
 5- Allure and Spec Reporter
 6- Logs Recording
-7- Suits Management
+7- Suites Management
 ```
 
 ## Getting Started
