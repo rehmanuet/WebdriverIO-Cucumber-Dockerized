@@ -5,891 +5,7 @@
     "name" : "0-0",
     "children" : [ {
       "name" : "should book a flight",
-      "uid" : "2cf58842fc76ff48",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583312352340,
-        "stop" : 1583312377448,
-        "duration" : 25108
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Then Click on Search",
-      "uid" : "3a3b0a976cb6a2f0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583331966940,
-        "stop" : 1583331977001,
-        "duration" : 10061
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "c25bd9ce8e624054",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583308243154,
-        "stop" : 1583308260438,
-        "duration" : 17284
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "912880e2ee092ef1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583331963219,
-        "stop" : 1583331963226,
-        "duration" : 7
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "df990d3a3a2a8694",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583331790759,
-        "stop" : 1583331790759,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "a3409e4ba360c0a3",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583309052871,
-        "stop" : 1583309065529,
-        "duration" : 12658
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "2976de8ffdca7e9c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583313773136,
-        "stop" : 1583313788091,
-        "duration" : 14955
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "cdf31108c1e6ec4c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583308654449,
-        "stop" : 1583308672369,
-        "duration" : 17920
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Given Open Google website",
-      "uid" : "2046bc81c671d914",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583331963229,
-        "stop" : 1583331966760,
-        "duration" : 3531
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "32f3c8652b6377b6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583321467885,
-        "stop" : 1583321479369,
-        "duration" : 11484
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "ee88b064a728d695",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583327566627,
-        "stop" : 1583327587880,
-        "duration" : 21253
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "bbe561b47b044b30",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583327428667,
-        "stop" : 1583327436781,
-        "duration" : 8114
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "c399d770e5e2b5d5",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583319792405,
-        "stop" : 1583319825294,
-        "duration" : 32889
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "5464ea773714e5d3",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583308407178,
-        "stop" : 1583308432139,
-        "duration" : 24961
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "a41233e7868f811f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583318067999,
-        "stop" : 1583318091378,
-        "duration" : 23379
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "f8fa290f21d5195b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583321565613,
-        "stop" : 1583321577299,
-        "duration" : 11686
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "3908c25e2abfc433",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583327902648,
-        "stop" : 1583327933338,
-        "duration" : 30690
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "9254f846bebf3d5f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583331708937,
-        "stop" : 1583331744512,
-        "duration" : 35575
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "a4d47a1a48ff3bec",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583313801145,
-        "stop" : 1583313816658,
-        "duration" : 15513
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "73972f6bb75eea8e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583308326296,
-        "stop" : 1583308326303,
-        "duration" : 7
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "9f022ea4de532281",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583308998562,
-        "stop" : 1583309011710,
-        "duration" : 13148
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "90cda7eb47aa927d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583312173611,
-        "stop" : 1583312199905,
-        "duration" : 26294
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "9a4cc53f64bbf129",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583327510925,
-        "stop" : 1583327521209,
-        "duration" : 10284
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "5b6f9d70085b4630",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583308470374,
-        "stop" : 1583308489298,
-        "duration" : 18924
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "14d92228ef74e431",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583327284536,
-        "stop" : 1583327295139,
-        "duration" : 10603
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "e5749b3d97ddfb2b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583327401457,
-        "stop" : 1583327415170,
-        "duration" : 13713
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "8236e33d7f6a8cce",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583317678927,
-        "stop" : 1583317696378,
-        "duration" : 17451
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "bf483794cb5fc30a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583331977001,
-        "stop" : 1583331977002,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "9b80e924de7b1a03",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583318400501,
-        "stop" : 1583318427928,
-        "duration" : 27427
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "b6cba9a3276abc56",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583318912663,
-        "stop" : 1583318938992,
-        "duration" : 26329
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "3f7ae5381aa0e1f0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583321435902,
-        "stop" : 1583321444089,
-        "duration" : 8187
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "1ef8e31331292857",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583321510238,
-        "stop" : 1583321523085,
-        "duration" : 12847
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "230ad44d65567660",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583310805236,
-        "stop" : 1583310820093,
-        "duration" : 14857
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "3c92ea79ece76a8c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583308185688,
-        "stop" : 1583308205808,
-        "duration" : 20120
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "300904fe127a1577",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583308075209,
-        "stop" : 1583308094907,
-        "duration" : 19698
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "a6e7277baf0483c2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583316939691,
-        "stop" : 1583316956686,
-        "duration" : 16995
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "f77bde5cb4119c4",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583317775150,
-        "stop" : 1583317793789,
-        "duration" : 18639
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "d83914272bbd46ea",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583322221506,
-        "stop" : 1583322267835,
-        "duration" : 46329
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "fbe53c353d946d5d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583310382778,
-        "stop" : 1583310393729,
-        "duration" : 10951
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "797f4ba3b1e6564d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583321267103,
-        "stop" : 1583321287471,
-        "duration" : 20368
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "f9cae7906c7a1511",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583316810515,
-        "stop" : 1583316828033,
-        "duration" : 17518
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "d5397db206b9c845",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583321051501,
-        "stop" : 1583321104144,
-        "duration" : 52643
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Then Click on Search",
-      "uid" : "f59bb5b23538e7e9",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583331778585,
-        "stop" : 1583331790758,
-        "duration" : 12173
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "7aedd31fffc0b712",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583317801946,
-        "stop" : 1583317823114,
-        "duration" : 21168
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "9ba352a2303194d2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583319671324,
-        "stop" : 1583319703252,
-        "duration" : 31928
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "63703eb2988cbeb3",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583307469647,
-        "stop" : 1583307486430,
-        "duration" : 16783
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "When User type the keyword NorthBay",
-      "uid" : "c2c0aaa668d2f53b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583331778404,
-        "stop" : 1583331778584,
-        "duration" : 180
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "e715ca890fb86933",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583320031172,
-        "stop" : 1583320077870,
-        "duration" : 46698
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "When User type the keyword NorthBay",
-      "uid" : "342b5585b2fc20d5",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583331966760,
-        "stop" : 1583331966940,
-        "duration" : 180
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "6ee30da25f080abf",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583318661825,
-        "stop" : 1583318699232,
-        "duration" : 37407
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Given Open Google website",
-      "uid" : "23bb42f3815fd9fc",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583331776653,
-        "stop" : 1583331778404,
-        "duration" : 1751
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "44dd6a3904995484",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583316755811,
-        "stop" : 1583316780676,
-        "duration" : 24865
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "7d203c04815b9f37",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583316908928,
-        "stop" : 1583316926480,
-        "duration" : 17552
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "1883ebb9e36ecc13",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583308937787,
-        "stop" : 1583308964353,
-        "duration" : 26566
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "130e534d4d353775",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583327179763,
-        "stop" : 1583327191138,
-        "duration" : 11375
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "c546dfa0aafd887",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583327456631,
-        "stop" : 1583327473182,
-        "duration" : 16551
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "2a69ba977e8be9ad",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583310681529,
-        "stop" : 1583310699330,
-        "duration" : 17801
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "f099d766e373759f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583312277429,
-        "stop" : 1583312293757,
-        "duration" : 16328
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "ccc4ce77d402857b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583327670575,
-        "stop" : 1583327694474,
-        "duration" : 23899
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "834182fb8ab826fe",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583327360166,
-        "stop" : 1583327368712,
-        "duration" : 8546
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "18f1723995a44417",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583309151873,
-        "stop" : 1583309175152,
-        "duration" : 23279
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "b3224b05970d902d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583306942329,
-        "stop" : 1583306965778,
-        "duration" : 23449
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "2dd51b870afcb8e7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583307267499,
-        "stop" : 1583307286544,
-        "duration" : 19045
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "220ec7721f4610f5",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583310637991,
-        "stop" : 1583310648213,
-        "duration" : 10222
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "27e9a2d4890de374",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583317923395,
-        "stop" : 1583317942808,
-        "duration" : 19413
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "8c5dc3150b311b1f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583327727656,
-        "stop" : 1583327769267,
-        "duration" : 41611
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "a018eae3ff48f624",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583331776641,
-        "stop" : 1583331776647,
-        "duration" : 6
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "c438ee03f5b17d96",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583321391675,
-        "stop" : 1583321406591,
-        "duration" : 14916
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "9b4b82168fd38b91",
+      "uid" : "a47be2d449afb405",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
@@ -902,33 +18,345 @@
       "parameters" : [ "chrome" ]
     }, {
       "name" : "should book a flight",
-      "uid" : "60f1dbc9d590c8af",
+      "uid" : "5194c45becf1128",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1583308835160,
-        "stop" : 1583308853574,
-        "duration" : 18414
+        "start" : 1583313773136,
+        "stop" : 1583313788091,
+        "duration" : 14955
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given Open Google website",
+      "uid" : "5556dcf1738963d9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398299562,
+        "stop" : 1583398301263,
+        "duration" : 1701
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "should book a flight",
-      "uid" : "9e9ababe140837b1",
+      "uid" : "60a16618204f8713",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583318661825,
+        "stop" : 1583318699232,
+        "duration" : 37407
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "3f13696742391db",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1583310949184,
-        "stop" : 1583310967146,
-        "duration" : 17962
+        "start" : 1583398632365,
+        "stop" : 1583398632370,
+        "duration" : 5
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "should book a flight",
-      "uid" : "a0b92857f8139db7",
+      "uid" : "1268cfd3a9f0796d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583308654449,
+        "stop" : 1583308672369,
+        "duration" : 17920
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "efacc3e63d7a7ae9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583308937787,
+        "stop" : 1583308964353,
+        "duration" : 26566
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "52ae2163a6e45399",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583331977001,
+        "stop" : 1583331977002,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "2bed7c8e43fa3e27",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583321267103,
+        "stop" : 1583321287471,
+        "duration" : 20368
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then Click on Search",
+      "uid" : "e5632a5908c31303",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398301534,
+        "stop" : 1583398311563,
+        "duration" : 10029
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "8d102103a185b301",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583327670575,
+        "stop" : 1583327694474,
+        "duration" : 23899
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "3737e34ddf966fe2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583321565613,
+        "stop" : 1583321577299,
+        "duration" : 11686
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When User type the keyword NorthBay",
+      "uid" : "780f8f22075a3373",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583331966760,
+        "stop" : 1583331966940,
+        "duration" : 180
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "9065404a60621264",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583320031172,
+        "stop" : 1583320077870,
+        "duration" : 46698
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "1fe2b80f7744e6b0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583312352340,
+        "stop" : 1583312377448,
+        "duration" : 25108
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "5d53c1cf1b7919b4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583321391675,
+        "stop" : 1583321406591,
+        "duration" : 14916
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "58a9238004da46ae",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583322221506,
+        "stop" : 1583322267835,
+        "duration" : 46329
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "13199be675b2e1cd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583308470374,
+        "stop" : 1583308489298,
+        "duration" : 18924
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When User type the keyword NorthBay",
+      "uid" : "4016059ea9e00fc8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398301263,
+        "stop" : 1583398301534,
+        "duration" : 271
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "c3da3313757c1ea6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583317775150,
+        "stop" : 1583317793789,
+        "duration" : 18639
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "c0ee9458c2a399ed",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583319792405,
+        "stop" : 1583319825294,
+        "duration" : 32889
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "96ea1f3ea5e3fb5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583309151873,
+        "stop" : 1583309175152,
+        "duration" : 23279
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "3a5d2a61393ddaef",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583318067999,
+        "stop" : 1583318091378,
+        "duration" : 23379
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "240e1138b9988c5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583317678927,
+        "stop" : 1583317696378,
+        "duration" : 17451
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "8ac25e5ff7c3e7f0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583327360166,
+        "stop" : 1583327368712,
+        "duration" : 8546
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "54c25ba8b7c62dfe",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583308185688,
+        "stop" : 1583308205808,
+        "duration" : 20120
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given Open Google website",
+      "uid" : "1ce4d371822cc274",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398582501,
+        "stop" : 1583398584108,
+        "duration" : 1607
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "3f17350e71f45b98",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
@@ -941,7 +369,670 @@
       "parameters" : [ "chrome" ]
     }, {
       "name" : "should book a flight",
-      "uid" : "3e21ab589c75c480",
+      "uid" : "cb078d95694c0e3a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583316810515,
+        "stop" : 1583316828033,
+        "duration" : 17518
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "c257d9b38154ee00",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583308407178,
+        "stop" : 1583308432139,
+        "duration" : 24961
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then Click on Search",
+      "uid" : "3ebc8684fb509e5c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398437245,
+        "stop" : 1583398447023,
+        "duration" : 9778
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When User type the keyword NorthBay",
+      "uid" : "90470c1b70a56be5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398693058,
+        "stop" : 1583398693225,
+        "duration" : 167
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "cc8b60dba4065b83",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583321510238,
+        "stop" : 1583321523085,
+        "duration" : 12847
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "23c1c28fd25ef27c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583310382778,
+        "stop" : 1583310393729,
+        "duration" : 10951
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "adb7bb7713d1f37f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583331790759,
+        "stop" : 1583331790759,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "f3184f7d22b509c4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583327456631,
+        "stop" : 1583327473182,
+        "duration" : 16551
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "29de9c123b5c947",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583319671324,
+        "stop" : 1583319703252,
+        "duration" : 31928
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "4829c68759892f5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583308835160,
+        "stop" : 1583308853574,
+        "duration" : 18414
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "ea84ed1042ffc78e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583327179763,
+        "stop" : 1583327191138,
+        "duration" : 11375
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "c52be20ee2ea43a4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583327566627,
+        "stop" : 1583327587880,
+        "duration" : 21253
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "6c1dd065a60c05af",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583321051501,
+        "stop" : 1583321104144,
+        "duration" : 52643
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "5a402d920d173e41",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583317801946,
+        "stop" : 1583317823114,
+        "duration" : 21168
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "55c33fb84f338f0a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583327902648,
+        "stop" : 1583327933338,
+        "duration" : 30690
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "213d0e8624ab4086",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583327284536,
+        "stop" : 1583327295139,
+        "duration" : 10603
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "c5bae530fd5a7429",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583318912663,
+        "stop" : 1583318938992,
+        "duration" : 26329
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "d1bda2b65f023be3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583316755811,
+        "stop" : 1583316780676,
+        "duration" : 24865
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "a9abeb7377843e7a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398311563,
+        "stop" : 1583398311564,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then Click on Search",
+      "uid" : "d70bb20ea2375a6f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583331778585,
+        "stop" : 1583331790758,
+        "duration" : 12173
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "cd2307798711f3ef",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583331776641,
+        "stop" : 1583331776647,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "b343e48d64676c08",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398582486,
+        "stop" : 1583398582494,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given Open Google website",
+      "uid" : "d465ad9797884c87",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398691432,
+        "stop" : 1583398693058,
+        "duration" : 1626
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given Open Google website",
+      "uid" : "563a3023ab00fc6c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583331963229,
+        "stop" : 1583331966760,
+        "duration" : 3531
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "25923fb2c7094759",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583308326296,
+        "stop" : 1583308326303,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "fb190d900f9d5bbe",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583327428667,
+        "stop" : 1583327436781,
+        "duration" : 8114
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "d742d8f4a5d2fe6c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583317960322,
+        "stop" : 1583317986121,
+        "duration" : 25799
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "dd43f869c24033c6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398434142,
+        "stop" : 1583398434148,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "e2d905611263d261",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583310681529,
+        "stop" : 1583310699330,
+        "duration" : 17801
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "aefa1cdb27200f9a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398594167,
+        "stop" : 1583398594167,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "b1b312fe10b9b38b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583313801145,
+        "stop" : 1583313816658,
+        "duration" : 15513
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When User type the keyword NorthBay",
+      "uid" : "cc6299f27806fd6b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398634097,
+        "stop" : 1583398634614,
+        "duration" : 517
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given Open Google website",
+      "uid" : "9a2ff22f02c93b79",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398434151,
+        "stop" : 1583398437064,
+        "duration" : 2913
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "d8f667f1a6049bbc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583307267499,
+        "stop" : 1583307286544,
+        "duration" : 19045
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "6fbcbec6c617cede",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583331708937,
+        "stop" : 1583331744512,
+        "duration" : 35575
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "ca8c971ac611dbfb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583327510925,
+        "stop" : 1583327521209,
+        "duration" : 10284
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "69bca14829f21c25",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583317923395,
+        "stop" : 1583317942808,
+        "duration" : 19413
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "c9c5e0ada4034012",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583321467885,
+        "stop" : 1583321479369,
+        "duration" : 11484
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "bfce03ba6c3046c6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398447023,
+        "stop" : 1583398447024,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When User type the keyword NorthBay",
+      "uid" : "fb4699a1c5b8c324",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583331778404,
+        "stop" : 1583331778584,
+        "duration" : 180
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "a15d3f9f6b35ed19",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583321435902,
+        "stop" : 1583321444089,
+        "duration" : 8187
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "fe6dcc598d10d0f0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398299547,
+        "stop" : 1583398299555,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When User type the keyword NorthBay",
+      "uid" : "f88d5879f77e7be6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398584108,
+        "stop" : 1583398584325,
+        "duration" : 217
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "e060629ff555533f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583316939691,
+        "stop" : 1583316956686,
+        "duration" : 16995
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then Click on Search",
+      "uid" : "b70fe22d6cedad60",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398634614,
+        "stop" : 1583398645279,
+        "duration" : 10665
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When User type the keyword NorthBay",
+      "uid" : "2b527a31c0beaa37",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398437064,
+        "stop" : 1583398437245,
+        "duration" : 181
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then Click on Search",
+      "uid" : "b7b11d6565f4b570",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583331966940,
+        "stop" : 1583331977001,
+        "duration" : 10061
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "a0c6773bbfd16e5d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583306942329,
+        "stop" : 1583306965778,
+        "duration" : 23449
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "e7cc1225cb9dd65c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398702916,
+        "stop" : 1583398702917,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "e943be3eb1482bf3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583316908928,
+        "stop" : 1583316926480,
+        "duration" : 17552
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "2b2563f3be413d47",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583308243154,
+        "stop" : 1583308260438,
+        "duration" : 17284
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "69c6beef827bcfa8",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -953,8 +1044,86 @@
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
+      "name" : "Hook",
+      "uid" : "b471257f64d17609",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583331963219,
+        "stop" : 1583331963226,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "659b4b8e0a3788fc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398691422,
+        "stop" : 1583398691429,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
       "name" : "should book a flight",
-      "uid" : "623b0b78033f34cd",
+      "uid" : "c9781979f9b4954a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583308075209,
+        "stop" : 1583308094907,
+        "duration" : 19698
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "a81df2f5ac8383d3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583327401457,
+        "stop" : 1583327415170,
+        "duration" : 13713
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "c1a3810365a60d72",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583307469647,
+        "stop" : 1583307486430,
+        "duration" : 16783
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "2d737242e1d9f1f5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583312173611,
+        "stop" : 1583312199905,
+        "duration" : 26294
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "a0431de10afcfd7c",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -967,13 +1136,169 @@
       "parameters" : [ "chrome" ]
     }, {
       "name" : "should book a flight",
-      "uid" : "acdbc4eae5685116",
+      "uid" : "f14cbb35d61352d6",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1583317960322,
-        "stop" : 1583317986121,
-        "duration" : 25799
+        "start" : 1583310805236,
+        "stop" : 1583310820093,
+        "duration" : 14857
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "f109959300e80ef0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398645279,
+        "stop" : 1583398645280,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "b79e7d43a542eb5a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583308998562,
+        "stop" : 1583309011710,
+        "duration" : 13148
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then Click on Search",
+      "uid" : "517570888d34321e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398693225,
+        "stop" : 1583398702916,
+        "duration" : 9691
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "af0731532b49a02c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583310949184,
+        "stop" : 1583310967146,
+        "duration" : 17962
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given Open Google website",
+      "uid" : "c76630fb5007b24f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398632372,
+        "stop" : 1583398634096,
+        "duration" : 1724
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then Click on Search",
+      "uid" : "64aab59ac7defe39",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583398584325,
+        "stop" : 1583398594166,
+        "duration" : 9841
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "8f264b16861f483e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583310637991,
+        "stop" : 1583310648213,
+        "duration" : 10222
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "67aeba2449e6b257",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583318400501,
+        "stop" : 1583318427928,
+        "duration" : 27427
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given Open Google website",
+      "uid" : "e2e00c38bab39d2b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583331776653,
+        "stop" : 1583331778404,
+        "duration" : 1751
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "d21287b046dc5b79",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583312277429,
+        "stop" : 1583312293757,
+        "duration" : 16328
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "57c0d0480b1ce28e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583327727656,
+        "stop" : 1583327769267,
+        "duration" : 41611
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should book a flight",
+      "uid" : "f38a603578815f30",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583309052871,
+        "stop" : 1583309065529,
+        "duration" : 12658
       },
       "flaky" : false,
       "newFailed" : false,

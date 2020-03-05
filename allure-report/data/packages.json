@@ -5,7 +5,7 @@
     "name" : "test",
     "children" : [ {
       "name" : "should book a flight",
-      "uid" : "3908c25e2abfc433",
+      "uid" : "55c33fb84f338f0a",
       "parentUid" : "d662795e8d349f9b5595bf62f43ea7ae",
       "status" : "broken",
       "time" : {
@@ -22,7 +22,7 @@
     "name" : "Open Kayak (POM)",
     "children" : [ {
       "name" : "should book a flight",
-      "uid" : "9254f846bebf3d5f",
+      "uid" : "6fbcbec6c617cede",
       "parentUid" : "94ef7455683e16e9bf10c23910d53b6b",
       "status" : "passed",
       "time" : {
@@ -39,51 +39,51 @@
     "name" : "Cucumber Check: open webpage",
     "children" : [ {
       "name" : "Given Open Google website",
-      "uid" : "2046bc81c671d914",
+      "uid" : "d465ad9797884c87",
       "parentUid" : "0082af5bc736fdee17cdfa598e28e07f",
       "status" : "passed",
       "time" : {
-        "start" : 1583331963229,
-        "stop" : 1583331966760,
-        "duration" : 3531
+        "start" : 1583398691432,
+        "stop" : 1583398693058,
+        "duration" : 1626
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "When User type the keyword NorthBay",
-      "uid" : "342b5585b2fc20d5",
+      "uid" : "90470c1b70a56be5",
       "parentUid" : "0082af5bc736fdee17cdfa598e28e07f",
       "status" : "passed",
       "time" : {
-        "start" : 1583331966760,
-        "stop" : 1583331966940,
-        "duration" : 180
+        "start" : 1583398693058,
+        "stop" : 1583398693225,
+        "duration" : 167
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Then Click on Search",
-      "uid" : "3a3b0a976cb6a2f0",
+      "uid" : "517570888d34321e",
       "parentUid" : "0082af5bc736fdee17cdfa598e28e07f",
       "status" : "passed",
       "time" : {
-        "start" : 1583331966940,
-        "stop" : 1583331977001,
-        "duration" : 10061
+        "start" : 1583398693225,
+        "stop" : 1583398702916,
+        "duration" : 9691
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Hook",
-      "uid" : "bf483794cb5fc30a",
+      "uid" : "e7cc1225cb9dd65c",
       "parentUid" : "0082af5bc736fdee17cdfa598e28e07f",
       "status" : "passed",
       "time" : {
-        "start" : 1583331977001,
-        "stop" : 1583331977002,
+        "start" : 1583398702916,
+        "stop" : 1583398702917,
         "duration" : 1
       },
       "flaky" : false,
