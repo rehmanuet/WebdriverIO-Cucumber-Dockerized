@@ -4,7 +4,7 @@ const hotel_page = {
     startSearch: () => {
         Page.hotelPage().click();
         browser.pause(3000);
-        Page.origin().isDisplayed();
+        Page.origin().waitForExist(5000);
         Page.origin().click();
         browser.pause(3000);
         browser.keys("BCN");
