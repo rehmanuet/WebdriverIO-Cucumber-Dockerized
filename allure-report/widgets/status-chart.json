@@ -1,65 +1,25 @@
 [ {
-  "uid" : "128e7db3db53de32",
-  "name" : "should book a flight",
-  "time" : {
-    "start" : 1583411878747,
-    "stop" : 1583411916024,
-    "duration" : 37277
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "e319d13cf9f27afd",
-  "name" : "Given Open Google website",
-  "time" : {
-    "start" : 1583411999384,
-    "stop" : 1583412001579,
-    "duration" : 2195
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "adae7a941bd35b1",
-  "name" : "When User type the keyword NorthBay",
-  "time" : {
-    "start" : 1583412001579,
-    "stop" : 1583412001746,
-    "duration" : 167
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "89f94d3452a39af4",
+  "uid" : "86213549c27d6d44",
   "name" : "Hook",
   "time" : {
-    "start" : 1583412011614,
-    "stop" : 1583412011614,
+    "start" : 1583755354523,
+    "stop" : 1583755354523,
     "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "aae227c64445072d",
-  "name" : "Then Click on Search",
-  "time" : {
-    "start" : 1583412001746,
-    "stop" : 1583412011613,
-    "duration" : 9867
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7a2e3fe0c5b7f09e",
+  "uid" : "229e4ab278cf49bf",
   "name" : "should book a flight",
   "time" : {
-    "start" : 1583411758683,
-    "stop" : 1583411758684,
-    "duration" : 1
+    "start" : 1583746464583,
+    "stop" : 1583746464583,
+    "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "ed6229f17677218d",
+  "uid" : "31b7b5cbc9a39166",
   "name" : "should book a flight",
   "time" : {
     "start" : 1583327902648,
@@ -67,5 +27,65 @@
     "duration" : 30690
   },
   "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c08e4dfda65d55e6",
+  "name" : "Then Click on Search",
+  "time" : {
+    "start" : 1583755342770,
+    "stop" : 1583755354523,
+    "duration" : 11753
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cc9128aced0b60f",
+  "name" : "Dry Test to handle Chai-Promised-Assrstion",
+  "time" : {
+    "start" : 1583755315867,
+    "stop" : 1583755315867,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "bfaa808ab7c7b2b1",
+  "name" : "should book a flight",
+  "time" : {
+    "start" : 1583755278451,
+    "stop" : 1583755315867,
+    "duration" : 37416
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c99d65abae1674f0",
+  "name" : "Dry Test to handle Chai-Promised-Assrstion",
+  "time" : {
+    "start" : 1583746464584,
+    "stop" : 1583746464590,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "194af7083f4404f3",
+  "name" : "When User type the keyword NorthBay",
+  "time" : {
+    "start" : 1583755342597,
+    "stop" : 1583755342770,
+    "duration" : 173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5d7cb6589d31943",
+  "name" : "Given Open Google website",
+  "time" : {
+    "start" : 1583755340194,
+    "stop" : 1583755342596,
+    "duration" : 2402
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

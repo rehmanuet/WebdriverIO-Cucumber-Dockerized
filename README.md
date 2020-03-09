@@ -1,4 +1,4 @@
-# WebdriverIO-Cucumber
+# WebdriverIO
 
 POC of WebdriverIO on React-Based application with Allure, Mocha, and Cucumber
 
@@ -22,7 +22,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 
 ```
-1- VS Code - IDE
+1- VS Code or WebStorm By JetBeans - IDE
 2- Node.js Library
 ```
 
@@ -37,3 +37,5 @@ A step by step procedure to run the project on local machine
 4) Execute "npm run simpletest" to run Kayak's Test case (Framework: Mocha, Reporting: Allure)
 5) "npm run cucumbertest" to run cucumber based sample test (Framework: Cuccumber, Reporting: Allure)
 ```
+
+_contact:`rehmanuet[at]yahoo[dot]com`_

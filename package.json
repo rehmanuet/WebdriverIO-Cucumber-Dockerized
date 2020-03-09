@@ -29,7 +29,7 @@
     "webdriverio": "^5.18.7"
   },
   "scripts": {
-    "simpletest": "./node_modules/.bin/wdio wdio.conf.js && allure generate --clean && allure open",
+    "simpletest": "./node_modules/.bin/wdio wdio.conf.js",
     "cucumbertest": "./node_modules/.bin/wdio wdio.conf-c.js && allure generate --clean && allure open",
     "test": "npm run simpletest && npm run cucumbertest && allure generate --clean && allure open"
   },
