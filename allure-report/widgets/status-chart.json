@@ -1,65 +1,35 @@
 [ {
-  "uid" : "86213549c27d6d44",
+  "uid" : "ce33178636629ee3",
   "name" : "Hook",
   "time" : {
-    "start" : 1583755354523,
-    "stop" : 1583755354523,
+    "start" : 1583921893524,
+    "stop" : 1583921893524,
     "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "229e4ab278cf49bf",
-  "name" : "should book a flight",
+  "uid" : "552e2a81807cefea",
+  "name" : "Dry Test to handle Chai-Promised-Assrstion",
   "time" : {
-    "start" : 1583746464583,
-    "stop" : 1583746464583,
+    "start" : 1583768638691,
+    "stop" : 1583768638691,
     "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "31b7b5cbc9a39166",
-  "name" : "should book a flight",
+  "uid" : "37c1bdb0d16ae5f9",
+  "name" : "Mouse Operations with WebdriverIO",
   "time" : {
-    "start" : 1583327902648,
-    "stop" : 1583327933338,
-    "duration" : 30690
+    "start" : 1583757668456,
+    "stop" : 1583757669991,
+    "duration" : 1535
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "c08e4dfda65d55e6",
-  "name" : "Then Click on Search",
-  "time" : {
-    "start" : 1583755342770,
-    "stop" : 1583755354523,
-    "duration" : 11753
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1cc9128aced0b60f",
-  "name" : "Dry Test to handle Chai-Promised-Assrstion",
-  "time" : {
-    "start" : 1583755315867,
-    "stop" : 1583755315867,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "bfaa808ab7c7b2b1",
-  "name" : "should book a flight",
-  "time" : {
-    "start" : 1583755278451,
-    "stop" : 1583755315867,
-    "duration" : 37416
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c99d65abae1674f0",
+  "uid" : "690446f848155f4b",
   "name" : "Dry Test to handle Chai-Promised-Assrstion",
   "time" : {
     "start" : 1583746464584,
@@ -69,23 +39,63 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "194af7083f4404f3",
+  "uid" : "438e770773efa090",
   "name" : "When User type the keyword NorthBay",
   "time" : {
-    "start" : 1583755342597,
-    "stop" : 1583755342770,
-    "duration" : 173
+    "start" : 1583921883293,
+    "stop" : 1583921883510,
+    "duration" : 217
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a5d7cb6589d31943",
-  "name" : "Given Open Google website",
+  "uid" : "681bb334bc56741",
+  "name" : "should book a flight",
   "time" : {
-    "start" : 1583755340194,
-    "stop" : 1583755342596,
-    "duration" : 2402
+    "start" : 1583327902648,
+    "stop" : 1583327933338,
+    "duration" : 30690
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "48a6da806718904a",
+  "name" : "Then Click on Search",
+  "time" : {
+    "start" : 1583921883510,
+    "stop" : 1583921893523,
+    "duration" : 10013
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab4ac030d4e09a07",
+  "name" : "Given Open Google website",
+  "time" : {
+    "start" : 1583921881618,
+    "stop" : 1583921883292,
+    "duration" : 1674
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5512db37a150e8b1",
+  "name" : "should book a flight",
+  "time" : {
+    "start" : 1583768604079,
+    "stop" : 1583768638690,
+    "duration" : 34611
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68fd9c8720d0eac3",
+  "name" : "should book a flight",
+  "time" : {
+    "start" : 1583757668456,
+    "stop" : 1583757668456,
+    "duration" : 0
+  },
+  "status" : "skipped",
   "severity" : "normal"
 } ]

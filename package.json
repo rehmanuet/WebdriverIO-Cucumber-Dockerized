@@ -20,11 +20,10 @@
     "@wdio/sync": "^5.18.7",
     "chai": "^4.2.0",
     "chromedriver": "^80.0.1",
-    "jasmine": "^3.5.0",
+    "mocha": "^7.1.0",
     "selenium-standalone": "^6.17.0",
     "wdio-allure-reporter": "^0.1.2",
     "wdio-chromedriver-service": "^5.0.2",
-    "wdio-jasmine-framework": "^0.3.8",
     "wdio-spec-reporter": "^0.1.5",
     "webdriverio": "^5.18.7"
   },

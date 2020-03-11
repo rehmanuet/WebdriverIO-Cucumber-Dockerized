@@ -1,6 +1,17 @@
 {
   "total" : 3,
   "items" : [ {
+    "uid" : "e68542274d4607e5ecbf82c704e337da",
+    "name" : "Open Kayak (POM)",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 2,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
     "uid" : "ff2b04dbb9c449a4d40723f51d841925",
     "name" : "test",
     "statistic" : {
@@ -19,17 +30,6 @@
       "broken" : 0,
       "skipped" : 0,
       "passed" : 4,
-      "unknown" : 0,
-      "total" : 4
-    }
-  }, {
-    "uid" : "e68542274d4607e5ecbf82c704e337da",
-    "name" : "Open Kayak (POM)",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 2,
-      "passed" : 2,
       "unknown" : 0,
       "total" : 4
     }

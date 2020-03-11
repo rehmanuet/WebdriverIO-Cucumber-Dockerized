@@ -19,7 +19,7 @@ exports.config = {
     // NPM script (see https://docs.npmjs.com/cli/run-script) then the current working
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
-    specs: ['./features/*.feature', ],
+    specs: ['./features/*.feature',],
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -219,10 +219,10 @@ exports.config = {
     // afterFeature: function (uri, feature, scenarios) {
     // },
     // before: function() {
-        /**
-         * Setup the Chai assertion framework
-         */
-     
+    /**
+     * Setup the Chai assertion framework
+     */
+
     // }
     /**
      * Runs after a WebdriverIO command gets executed

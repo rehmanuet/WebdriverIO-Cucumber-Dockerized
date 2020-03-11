@@ -7,7 +7,7 @@
       "name" : "element (\".example #elements .added-manually\") still not displayed after 10000ms",
       "children" : [ {
         "name" : "should book a flight",
-        "uid" : "31b7b5cbc9a39166",
+        "uid" : "681bb334bc56741",
         "parentUid" : "abe01d66a24756765cec0d13e09e4e23",
         "status" : "broken",
         "time" : {
@@ -20,6 +20,23 @@
         "parameters" : [ "chrome" ]
       } ],
       "uid" : "abe01d66a24756765cec0d13e09e4e23"
+    }, {
+      "name" : "browser.positionClick is not a function",
+      "children" : [ {
+        "name" : "Mouse Operations with WebdriverIO",
+        "uid" : "37c1bdb0d16ae5f9",
+        "parentUid" : "261c9d221f9b1457b5b5b3009e8c1d8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583757668456,
+          "stop" : 1583757669991,
+          "duration" : 1535
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "261c9d221f9b1457b5b5b3009e8c1d8d"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

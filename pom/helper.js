@@ -1,34 +1,35 @@
-const Page = require('../pom/utils.js');
+const HomePage = require('../pom/utils.js');
 
-const hotel_page = {
+
+const SearchPage = {
     startSearch: () => {
-        Page.hotelPage().click();
+
+        HomePage.searchTab.click()
         browser.pause(3000);
-        Page.origin().waitForExist(5000);
-        Page.origin().click();
+        HomePage.originField.waitForExist(5000);
+        HomePage.originField.click()
         browser.pause(3000);
         browser.keys("BCN");
         browser.pause(3000);
         browser.keys("\uE007");
     },
     setDate: () => {
-        Page.firstDate().click();
+        HomePage.setFirstDate.click()
         browser.pause(3000);
         browser.keys("\ue004");
         browser.pause(2000);
         browser.keys("\ue004");
-
-        const myEndDate = Page.formatingDates(Page.endDate());
-
+        const myEndDate = HomePage.formatingDates(HomePage.endDate)
         browser.keys(myEndDate);
 
     },
     endSearch: () => {
-        Page.searchButton().click();
+
+        HomePage.searchFlight.click();
         browser.pause(9000);
     }
-};
+}
 module.exports = {
 
-    hotel_page
+    SearchPage
 };
