@@ -20,8 +20,9 @@ describe("Open Kayak (POM)", function () {
         $('.example #checkbox-example button').click();
         browser.waitUntil(() => {
             return (Promise.resolve($('.example #checkbox-example #message').getText()).should.eventually
-                                                                            .equal("It's back!")) === false
+                .equal("It's back!")) === false
         }, 5000, 'expected text to be different after 5s');
 
     })
+
 });
