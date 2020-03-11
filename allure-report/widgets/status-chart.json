@@ -1,35 +1,15 @@
 [ {
-  "uid" : "ce33178636629ee3",
-  "name" : "Hook",
+  "uid" : "9b2e7578712b81cd",
+  "name" : "\"before all\" hook",
   "time" : {
-    "start" : 1583921893524,
-    "stop" : 1583921893524,
-    "duration" : 0
+    "start" : 1583933959784,
+    "stop" : 1583933962512,
+    "duration" : 2728
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "552e2a81807cefea",
-  "name" : "Dry Test to handle Chai-Promised-Assrstion",
-  "time" : {
-    "start" : 1583768638691,
-    "stop" : 1583768638691,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "37c1bdb0d16ae5f9",
-  "name" : "Mouse Operations with WebdriverIO",
-  "time" : {
-    "start" : 1583757668456,
-    "stop" : 1583757669991,
-    "duration" : 1535
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "690446f848155f4b",
+  "uid" : "986747b242dc8a74",
   "name" : "Dry Test to handle Chai-Promised-Assrstion",
   "time" : {
     "start" : 1583746464584,
@@ -39,17 +19,77 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "438e770773efa090",
+  "uid" : "e1621cbfed8fac57",
+  "name" : "Mouse Operations with WebdriverIO",
+  "time" : {
+    "start" : 1583757668456,
+    "stop" : 1583757669991,
+    "duration" : 1535
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bf57393b98af2da7",
   "name" : "When User type the keyword NorthBay",
   "time" : {
-    "start" : 1583921883293,
-    "stop" : 1583921883510,
-    "duration" : 217
+    "start" : 1583934196819,
+    "stop" : 1583934197063,
+    "duration" : 244
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "681bb334bc56741",
+  "uid" : "fc424de27585f261",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1583934207022,
+    "stop" : 1583934207022,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e777e82824cbf18",
+  "name" : "should book a flight",
+  "time" : {
+    "start" : 1583933962512,
+    "stop" : 1583933990503,
+    "duration" : 27991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e20a4c4650dea86f",
+  "name" : "Then Click on Search",
+  "time" : {
+    "start" : 1583934197063,
+    "stop" : 1583934207022,
+    "duration" : 9959
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5679a0a17086e88d",
+  "name" : "Given Open Google website",
+  "time" : {
+    "start" : 1583934193815,
+    "stop" : 1583934196819,
+    "duration" : 3004
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c97b267b8272f26",
+  "name" : "should book a flight",
+  "time" : {
+    "start" : 1583757668456,
+    "stop" : 1583757668456,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "73c1f5164d9b6f35",
   "name" : "should book a flight",
   "time" : {
     "start" : 1583327902648,
@@ -59,41 +99,11 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "48a6da806718904a",
-  "name" : "Then Click on Search",
+  "uid" : "f4b142f080913a7d",
+  "name" : "Dry Test to handle Chai-Promised-Assrstion",
   "time" : {
-    "start" : 1583921883510,
-    "stop" : 1583921893523,
-    "duration" : 10013
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ab4ac030d4e09a07",
-  "name" : "Given Open Google website",
-  "time" : {
-    "start" : 1583921881618,
-    "stop" : 1583921883292,
-    "duration" : 1674
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5512db37a150e8b1",
-  "name" : "should book a flight",
-  "time" : {
-    "start" : 1583768604079,
-    "stop" : 1583768638690,
-    "duration" : 34611
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "68fd9c8720d0eac3",
-  "name" : "should book a flight",
-  "time" : {
-    "start" : 1583757668456,
-    "stop" : 1583757668456,
+    "start" : 1583933990504,
+    "stop" : 1583933990504,
     "duration" : 0
   },
   "status" : "skipped",

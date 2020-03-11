@@ -4,3 +4,4 @@ package-lock.json
 allure-results/*
 allure-report/*
 logs/*
+debug.log
