@@ -19,7 +19,7 @@ exports.config = {
     // NPM script (see https://docs.npmjs.com/cli/run-script) then the current working
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
-    specs: ['./features/*.feature',],
+    specs: ['./features/**/*.feature'],
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -135,7 +135,7 @@ exports.config = {
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {
         requireModule: ['@babel/register'],
-        require: ['./features/stepdefinitions/**/*.js'], // <string[]> (file/dir) require files before executing features
+        require: ['./features/step_definitions/**/*.js'], // <string[]> (file/dir) require files before executing features
         backtrace: false, // <boolean> show full backtrace for errors
         dryRun: false, // <boolean> invoke formatters without executing steps
         failFast: false, // <boolean> abort the run on first failure
@@ -267,4 +267,4 @@ exports.config = {
      */
     //onReload: function(oldSessionId, newSessionId) {
     //}
-}
+};

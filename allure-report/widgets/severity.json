@@ -1,55 +1,5 @@
 [ {
-  "uid" : "5679a0a17086e88d",
-  "name" : "Given Open Google website",
-  "time" : {
-    "start" : 1583934193815,
-    "stop" : 1583934196819,
-    "duration" : 3004
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "73c1f5164d9b6f35",
-  "name" : "should book a flight",
-  "time" : {
-    "start" : 1583327902648,
-    "stop" : 1583327933338,
-    "duration" : 30690
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "5e777e82824cbf18",
-  "name" : "should book a flight",
-  "time" : {
-    "start" : 1583933962512,
-    "stop" : 1583933990503,
-    "duration" : 27991
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e20a4c4650dea86f",
-  "name" : "Then Click on Search",
-  "time" : {
-    "start" : 1583934197063,
-    "stop" : 1583934207022,
-    "duration" : 9959
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c97b267b8272f26",
-  "name" : "should book a flight",
-  "time" : {
-    "start" : 1583757668456,
-    "stop" : 1583757668456,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "e1621cbfed8fac57",
+  "uid" : "fd316c1ad8e51bf4",
   "name" : "Mouse Operations with WebdriverIO",
   "time" : {
     "start" : 1583757668456,
@@ -59,17 +9,7 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "fc424de27585f261",
-  "name" : "Hook",
-  "time" : {
-    "start" : 1583934207022,
-    "stop" : 1583934207022,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f4b142f080913a7d",
+  "uid" : "78a9e60f9079dba5",
   "name" : "Dry Test to handle Chai-Promised-Assrstion",
   "time" : {
     "start" : 1583933990504,
@@ -79,7 +19,37 @@
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "9b2e7578712b81cd",
+  "uid" : "fafd682e8e54d546",
+  "name" : "Then Click on Search",
+  "time" : {
+    "start" : 1583937900974,
+    "stop" : 1583937911414,
+    "duration" : 10440
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "244c9f28e5246094",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1583937911414,
+    "stop" : 1583937911415,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b3c17761b43d128",
+  "name" : "Given Open Google website",
+  "time" : {
+    "start" : 1583937899045,
+    "stop" : 1583937900760,
+    "duration" : 1715
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2abcd90aac5824d",
   "name" : "\"before all\" hook",
   "time" : {
     "start" : 1583933959784,
@@ -89,22 +59,52 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bf57393b98af2da7",
-  "name" : "When User type the keyword NorthBay",
-  "time" : {
-    "start" : 1583934196819,
-    "stop" : 1583934197063,
-    "duration" : 244
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "986747b242dc8a74",
+  "uid" : "ec5ae1a42c9f8307",
   "name" : "Dry Test to handle Chai-Promised-Assrstion",
   "time" : {
     "start" : 1583746464584,
     "stop" : 1583746464590,
     "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12785f681c37cafd",
+  "name" : "should book a flight",
+  "time" : {
+    "start" : 1583933962512,
+    "stop" : 1583933990503,
+    "duration" : 27991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99ce87a42310aca9",
+  "name" : "should book a flight",
+  "time" : {
+    "start" : 1583327902648,
+    "stop" : 1583327933338,
+    "duration" : 30690
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2a30254d0e65079b",
+  "name" : "should book a flight",
+  "time" : {
+    "start" : 1583757668456,
+    "stop" : 1583757668456,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "31aea40687c2f811",
+  "name" : "When User type the keyword NorthBay",
+  "time" : {
+    "start" : 1583937900760,
+    "stop" : 1583937900974,
+    "duration" : 214
   },
   "status" : "passed",
   "severity" : "normal"

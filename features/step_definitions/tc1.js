@@ -11,8 +11,8 @@ Given('Open Google website', () => {
 
 });
 When('User type the keyword NorthBay', () => {
-    expect(browser.getUrl()).to.equal("https://www.google.com/?gws_rd=ssl")
-    let search= $('//*[contains(@name, "q")]');
+    expect(browser.getUrl()).to.equal("https://www.google.com/?gws_rd=ssl");
+    let search = $('//*[contains(@name, "q")]');
     search.click();
     search.setValue("NorthBay")
 

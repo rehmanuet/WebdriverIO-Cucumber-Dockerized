@@ -1,7 +1,3 @@
-// import {describe} from "mocha";
-
-
-
 const kayak = require('../pom/helper.js');
 const chai = require("chai");
 const chaiAsPromised = require("chai-as-promised");
@@ -19,11 +15,11 @@ describe("Open Kayak (POM)", function () {
     });
 
     it('should book a flight', () => {
-        kayak.SearchPage.startSearch()
-        kayak.SearchPage.setDate()
+        kayak.SearchPage.startSearch();
+        kayak.SearchPage.setDate();
         kayak.SearchPage.endSearch()
     });
-    xit('Dry Test to handle Chai-Promised-Assrstion', () => {
+    xit('Dry Test to handle Chai-Promised-Assertion', () => {
         browser.url('http://the-internet.herokuapp.com/dynamic_controls');
         $('.example #checkbox-example button').click();
         browser.waitUntil(() => {

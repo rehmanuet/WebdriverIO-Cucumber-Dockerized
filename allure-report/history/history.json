@@ -9,33 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e1621cbfed8fac57",
+      "uid" : "fd316c1ad8e51bf4",
       "status" : "broken",
       "statusDetails" : "browser.positionClick is not a function",
       "time" : {
         "start" : 1583757668456,
         "stop" : 1583757669991,
         "duration" : 1535
-      }
-    } ]
-  },
-  "1454243531293609c4e5c518a78165c3" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f4b142f080913a7d",
-      "status" : "skipped",
-      "statusDetails" : "Test ignored",
-      "time" : {
-        "start" : 1583933990504,
-        "stop" : 1583933990504,
-        "duration" : 0
       }
     } ]
   },
@@ -49,12 +29,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c97b267b8272f26",
+      "uid" : "2a30254d0e65079b",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
         "start" : 1583757668456,
         "stop" : 1583757668456,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1454243531293609c4e5c518a78165c3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "78a9e60f9079dba5",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1583933990504,
+        "stop" : 1583933990504,
         "duration" : 0
       }
     } ]
@@ -69,7 +69,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9b2e7578712b81cd",
+      "uid" : "d2abcd90aac5824d",
       "status" : "passed",
       "time" : {
         "start" : 1583933959784,
@@ -88,12 +88,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5679a0a17086e88d",
+      "uid" : "7b3c17761b43d128",
       "status" : "passed",
       "time" : {
-        "start" : 1583934193815,
-        "stop" : 1583934196819,
-        "duration" : 3004
+        "start" : 1583937899045,
+        "stop" : 1583937900760,
+        "duration" : 1715
       }
     } ]
   },
@@ -107,7 +107,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "73c1f5164d9b6f35",
+      "uid" : "99ce87a42310aca9",
       "status" : "broken",
       "statusDetails" : "element (\".example #elements .added-manually\") still not displayed after 10000ms",
       "time" : {
@@ -127,12 +127,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fc424de27585f261",
+      "uid" : "244c9f28e5246094",
       "status" : "passed",
       "time" : {
-        "start" : 1583934207022,
-        "stop" : 1583934207022,
-        "duration" : 0
+        "start" : 1583937911414,
+        "stop" : 1583937911415,
+        "duration" : 1
       }
     } ]
   },
@@ -146,12 +146,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e20a4c4650dea86f",
+      "uid" : "fafd682e8e54d546",
       "status" : "passed",
       "time" : {
-        "start" : 1583934197063,
-        "stop" : 1583934207022,
-        "duration" : 9959
+        "start" : 1583937900974,
+        "stop" : 1583937911414,
+        "duration" : 10440
       }
     } ]
   },
@@ -165,7 +165,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "986747b242dc8a74",
+      "uid" : "ec5ae1a42c9f8307",
       "status" : "passed",
       "time" : {
         "start" : 1583746464584,
@@ -184,7 +184,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5e777e82824cbf18",
+      "uid" : "12785f681c37cafd",
       "status" : "passed",
       "time" : {
         "start" : 1583933962512,
@@ -203,12 +203,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bf57393b98af2da7",
+      "uid" : "31aea40687c2f811",
       "status" : "passed",
       "time" : {
-        "start" : 1583934196819,
-        "stop" : 1583934197063,
-        "duration" : 244
+        "start" : 1583937900760,
+        "stop" : 1583937900974,
+        "duration" : 214
       }
     } ]
   }
