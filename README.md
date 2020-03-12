@@ -2,6 +2,10 @@
 
 POC of WebdriverIO on React-Based application with Allure, Mocha, and Cucumber
 
+# Stack
+
+<img src="https://img.stackshare.io/service/4185/webdriver.io.png?raw=true?raw=true" width="100" height="100" /><img src="https://cdn.freebiesupply.com/logos/large/2x/cucumber-logo-png-transparent.png?raw=true" width="100" height="100" /><img src="https://camo.githubusercontent.com/c14c2f174870d15a031245b3d3cd57f648e50fb2/68747470733a2f2f7777772e706172616469676d616469676974616c2e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031372f30322f312e706e67?raw=true" height="100"/><img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png?raw=true" width="100" height="100" />
+
 ## Features
 
 ```
