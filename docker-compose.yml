@@ -1,0 +1,50 @@
+# app:
+#   build: .
+#   command: npm test -- --host selenium
+#   links:
+#     - selenium
+
+# selenium:
+#   image: selenium/standalone-chrome
+#   expose:
+#     - "3000"
+#   log_driver: "none"
+  
+# version: '3'
+# services:
+#   selenium:
+#     image: vvoyer/selenium-standalone
+#     ports:
+#       - "4444:4444"
+#   app:
+#     build: .
+#     command: npm test
+#     links: :
+#       - selenium
+version: '3'
+services:
+  selenium:
+    image: vvoyer/selenium-standalone
+    ports:
+      - "4444:4444/tcp"
+  app:
+    build: .
+    command: npm test
+    depends_on:
+      - selenium
+    links:
+      - selenium
+
+# version: "2"
+# services:
+#   selenium:
+#     image: vvoyer/selenium-standalone
+#     ports:
+#       - "4444:4444/tcp"
+#     command: npm test
+#   app:
+#     build: .
+    # links:
+    #   - selenium
+    # depends_on: 
+    #   - selenium
