@@ -4,8 +4,8 @@ exports.config = {
     // ====================
     // ChromeDriver Runner
     // ====================
-    services: ['chromedriver'],
-    path: '/',
+    // services: ['chromedriver'],
+    // path: '/',
 
     // ======================================== //
 
@@ -13,10 +13,10 @@ exports.config = {
     // Selenium Stand Alone Runner
     // ==========================
 
-    // services: ['selenium-standalone'],
-    // hostname:'selenium',
-    // path:'/wd/hub',
-    // port:"4444",
+    services: ['selenium-standalone'],
+    hostname:'selenium',
+    path:'/wd/hub',
+    port:4444,
     // ======================================== //
 
     // services: ['docker'],
