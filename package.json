@@ -36,7 +36,8 @@
     "local_cucumber_test": "npm run cucumber",
     "docker_kayak_test": "npm run docker_Kayak",
     "docker_cucumber_test": "npm run docker_cucumber",
-    "show_report":"allure generate --clean && allure open"
+    "show_report":"allure generate --clean && allure open",
+    "test":"npm run docker_cucumber"
 
   },
   "author": "Abdur Rehman",
