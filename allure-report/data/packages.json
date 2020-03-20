@@ -2,97 +2,41 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "test",
-    "children" : [ {
-      "name" : "should book a flight",
-      "uid" : "99ce87a42310aca9",
-      "parentUid" : "d662795e8d349f9b5595bf62f43ea7ae",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583327902648,
-        "stop" : 1583327933338,
-        "duration" : 30690
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "d662795e8d349f9b5595bf62f43ea7ae"
-  }, {
     "name" : "Open Kayak (POM)",
     "children" : [ {
-      "name" : "Dry Test to handle Chai-Promised-Assrstion",
-      "uid" : "ec5ae1a42c9f8307",
-      "parentUid" : "94ef7455683e16e9bf10c23910d53b6b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583746464584,
-        "stop" : 1583746464590,
-        "duration" : 6
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Mouse Operations with WebdriverIO",
-      "uid" : "fd316c1ad8e51bf4",
-      "parentUid" : "94ef7455683e16e9bf10c23910d53b6b",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583757668456,
-        "stop" : 1583757669991,
-        "duration" : 1535
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "should book a flight",
-      "uid" : "2a30254d0e65079b",
-      "parentUid" : "94ef7455683e16e9bf10c23910d53b6b",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1583757668456,
-        "stop" : 1583757668456,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
       "name" : "\"before all\" hook",
-      "uid" : "d2abcd90aac5824d",
+      "uid" : "ad7481554ce5a669",
       "parentUid" : "94ef7455683e16e9bf10c23910d53b6b",
       "status" : "passed",
       "time" : {
-        "start" : 1583933959784,
-        "stop" : 1583933962512,
-        "duration" : 2728
+        "start" : 1584703600453,
+        "stop" : 1584703622949,
+        "duration" : 22496
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "should book a flight",
-      "uid" : "12785f681c37cafd",
+      "uid" : "9698252524e4b00f",
       "parentUid" : "94ef7455683e16e9bf10c23910d53b6b",
       "status" : "passed",
       "time" : {
-        "start" : 1583933962512,
-        "stop" : 1583933990503,
-        "duration" : 27991
+        "start" : 1584703622951,
+        "stop" : 1584703677236,
+        "duration" : 54285
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "Dry Test to handle Chai-Promised-Assrstion",
-      "uid" : "78a9e60f9079dba5",
+      "name" : "Dry Test to handle Chai-Promised-Assertion",
+      "uid" : "ad74ae5a156befb5",
       "parentUid" : "94ef7455683e16e9bf10c23910d53b6b",
       "status" : "skipped",
       "time" : {
-        "start" : 1583933990504,
-        "stop" : 1583933990504,
+        "start" : 1584703677242,
+        "stop" : 1584703677242,
         "duration" : 0
       },
       "flaky" : false,
@@ -104,52 +48,52 @@
     "name" : "Cucumber Check: open webpage",
     "children" : [ {
       "name" : "Given Open Google website",
-      "uid" : "7b3c17761b43d128",
+      "uid" : "68028a86464db1cc",
       "parentUid" : "0082af5bc736fdee17cdfa598e28e07f",
       "status" : "passed",
       "time" : {
-        "start" : 1583937899045,
-        "stop" : 1583937900760,
-        "duration" : 1715
+        "start" : 1584704233906,
+        "stop" : 1584704240757,
+        "duration" : 6851
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "When User type the keyword NorthBay",
-      "uid" : "31aea40687c2f811",
+      "uid" : "23cd038e7132f476",
       "parentUid" : "0082af5bc736fdee17cdfa598e28e07f",
       "status" : "passed",
       "time" : {
-        "start" : 1583937900760,
-        "stop" : 1583937900974,
-        "duration" : 214
+        "start" : 1584704240760,
+        "stop" : 1584704242481,
+        "duration" : 1721
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Then Click on Search",
-      "uid" : "fafd682e8e54d546",
+      "uid" : "8f0bc743129e4e66",
       "parentUid" : "0082af5bc736fdee17cdfa598e28e07f",
       "status" : "passed",
       "time" : {
-        "start" : 1583937900974,
-        "stop" : 1583937911414,
-        "duration" : 10440
+        "start" : 1584704242482,
+        "stop" : 1584704257626,
+        "duration" : 15144
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Hook",
-      "uid" : "244c9f28e5246094",
+      "uid" : "d59ebf0c58d92358",
       "parentUid" : "0082af5bc736fdee17cdfa598e28e07f",
       "status" : "passed",
       "time" : {
-        "start" : 1583937911414,
-        "stop" : 1583937911415,
-        "duration" : 1
+        "start" : 1584704257628,
+        "stop" : 1584704257630,
+        "duration" : 2
       },
       "flaky" : false,
       "newFailed" : false,

@@ -1,57 +1,61 @@
 exports.config = {
+
     runner: 'local',
-    // ======================================== //
-    // ====================
-    // ChromeDriver Runner
-    // ====================
-    services: ['chromedriver'],
-    path: '/',
+    specs: ['./test/**/*.js'],
 
-    // ======================================== //
-
-    // ===========================
-    // Selenium Stand Alone Runner
-    // ==========================
-
-    // services: ['selenium-standalone'],
-    // hostname:'selenium',
-    // path:'/wd/hub',
-    // port:4444,
-    // ======================================== //
-
-    // services: ['docker'],
-    // dockerOptions: {
-    //     image: 'vvoyer/selenium-standalon',
-    //     healthCheck: 'http://localhost:4444',
-    //     options: {
-    //         p: ['4444:4444'],
-    //         shmSize: '2g'
-    //     }
-    // },
-
-
-
-
-    specs: ['./features/**/*.feature'],
-    exclude: [],
+    exclude: [
+    ],
+    
     maxInstances: 10,
+ 
     capabilities: [{
+       
         maxInstances: 5,
         browserName: 'chrome',
+        outputDir: '.logs',
     }],
-    // ===================
-    // Test Configurations
-    // ===================
-    // Level of logging verbosity: trace | debug | info | warn | error | silent
+ 
     logLevel: 'info',
-    outputDir: './logs',
+    outputDir: "./logs",
     bail: 0,
-    baseUrl: 'http://localhost:8080',
+
+    baseUrl: 'http://localhost',
+    //
+    // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
+    //
+    // Default timeout in milliseconds for request
+    // if browser driver or grid doesn't send response
     connectionRetryTimeout: 90000,
+    //
+    // Default request retries count
     connectionRetryCount: 3,
-    framework: 'cucumber',
-    reporters: ['allure', 'spec'],
+    //
+    // Test runner services
+    // Services take over a specific job you don't want to take care of. They enhance
+    // your test setup with almost no effort. Unlike plugins, they don't add new
+    // commands. Instead, they hook themselves up into the test process.
+    // services: ['chromedriver'],
+    services: ['selenium-standalone'],
+    hostname:'selenium',
+    path:'/wd/hub',
+    port:4444,
+    // Framework you want to run your specs with.
+    // The following are supported: Mocha, Jasmine, and Cucumber
+    // see also: https://webdriver.io/docs/frameworks.html
+    //
+    // Make sure you have the wdio adapter package for the specific framework installed
+    // before running any tests.
+    framework: 'mocha',
+    //
+    // The number of times to retry the entire specfile when it fails as a whole
+    // specFileRetries: 1,
+    //
+    // Test reporter for stdout.
+    // The only one supported by default is 'dot'
+    // see also: https://webdriver.io/docs/dot-reporter.html
+    // reporters: ['spec'],
+    reporters: ['spec', 'allure'],
     reporterOptions: {
         allure: {
             outputDir: 'allure-result',
@@ -60,22 +64,21 @@ exports.config = {
             useCucumberStepReporter: false
         }
     },
-    cucumberOpts: {
-        requireModule: ['@babel/register'],
-        require: ['./features/step_definitions/**/*.js'], // <string[]> (file/dir) require files before executing features
-        backtrace: false, // <boolean> show full backtrace for errors
-        dryRun: false, // <boolean> invoke formatters without executing steps
-        failFast: false, // <boolean> abort the run on first failure
-        format: ['pretty'], // <string[]> (type[:path]) specify the output format, optionally supply PATH to redirect formatter output (repeatable)
-        colors: true, // <boolean> disable colors in formatter output
-        snippets: false, // <boolean> hide step definition snippets for pending steps
-        source: true, // <boolean> hide source uris
-        profile: [], // <string[]> (name) specify the profile to use
-        strict: false, // <boolean> fail if there are any undefined or pending steps
-        tagExpression: '', // <string> (expression) only execute the features or scenarios with tags matching the expression
-        timeout: 60000, // <number> timeout for step definitions
-        ignoreUndefinedDefinitions: false, // <boolean> Enable this config to treat undefined definitions as warnings.
+    //
+    // Options to be passed to Mocha.
+    // See the full list at http://mochajs.org/
+    mochaOpts: {
+        ui: 'bdd',
+        timeout: 60000
     },
+    //
+    // =====
+    // Hooks
+    // =====
+    // WebdriverIO provides several hooks you can use to interfere with the test process in order to enhance
+    // it and to build services around it. You can either apply a single function or an array of
+    // methods to it. If one of them returns with a promise, WebdriverIO will wait until that promise got
+    // resolved to continue.
     /**
      * Gets executed once before all workers get launched.
      * @param {Object} config wdio configuration object
@@ -98,8 +101,8 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {Array.<String>} specs List of spec file paths that are to be run
      */
-    // before: function (capabilities, specs) {
-    // },
+    before: function (capabilities, specs) {
+    },
     /**
      * Runs before a WebdriverIO command gets executed.
      * @param {String} commandName hook command name
@@ -108,41 +111,39 @@ exports.config = {
     // beforeCommand: function (commandName, args) {
     // },
     /**
-     * Runs before a Cucumber feature
+     * Hook that gets executed before the suite starts
+     * @param {Object} suite suite details
      */
-    // beforeFeature: function (uri, feature, scenarios) {
+    // beforeSuite: function (suite) {
     // },
     /**
-     * Runs before a Cucumber scenario
+     * Function to be executed before a test (in Mocha/Jasmine) starts.
      */
-    // beforeScenario: function (uri, feature, scenario, sourceLocation) {
+    // beforeTest: function (test, context) {
     // },
     /**
-     * Runs before a Cucumber step
+     * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
+     * beforeEach in Mocha)
      */
-    // beforeStep: function (uri, feature, stepData, context) {
+    // beforeHook: function (test, context) {
     // },
     /**
-     * Runs after a Cucumber step
+     * Hook that gets executed _after_ a hook within the suite starts (e.g. runs after calling
+     * afterEach in Mocha)
      */
-    // afterStep: function (uri, feature, { error, result, duration, passed }, stepData, context) {
+    // afterHook: function (test, context, { error, result, duration, passed, retries }) {
     // },
     /**
-     * Runs after a Cucumber scenario
+     * Function to be executed after a test (in Mocha/Jasmine).
      */
-    // afterScenario: function (uri, feature, scenario, result, sourceLocation) {
+    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
     // },
     /**
-     * Runs after a Cucumber feature
+     * Hook that gets executed after the suite has ended
+     * @param {Object} suite suite details
      */
-    // afterFeature: function (uri, feature, scenarios) {
+    // afterSuite: function (suite) {
     // },
-    // before: function() {
-    /**
-     * Setup the Chai assertion framework
-     */
-
-    // }
     /**
      * Runs after a WebdriverIO command gets executed
      * @param {String} commandName hook command name
