@@ -1,4 +1,4 @@
-# WebdriverIO | Cucuumber | Docker
+# WebdriverIO | Cucumber | Docker
 
 POC of WebdriverIO on React-Based application with Allure, Mocha, and Cucumber
 
