@@ -4,6 +4,7 @@ jobs:
     docker:
       - image: node:10
       - image: vvoyer/selenium-standalone
+        name: selenium
         environment:
           HUB_PORT_4444_TCP_ADDR: hub
           HUB_PORT_4444_TCP_PORT: 4444
