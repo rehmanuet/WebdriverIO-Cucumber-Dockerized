@@ -16,10 +16,9 @@ services:
     container_name: e2e-tests-container
     build:
       context: .
-      dockerfile: ./Dockerfile
+      dockerfile: ./dockerfile
     volumes:
       - /dev/shm:/dev/shm
-      - ./report:/usr/app/report
     environment:
       - HUB_HOST=selenium
       - HUB_PORT=4444
