@@ -15,9 +15,12 @@ jobs:
     - name: Build docker images
       run: docker-compose build
 
+    - name: Install Dependencies tests
+      run: npm install
+      
     - name: Run tests
       run: npm run test
-
+      
     - uses: actions/upload-artifact@v1 
       with:
         name: report
