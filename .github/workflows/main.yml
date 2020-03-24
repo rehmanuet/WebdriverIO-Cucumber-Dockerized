@@ -18,7 +18,7 @@ jobs:
     - name: Run tests
       run: docker-compose -f aaa.yml up --abort-on-container-exit --exit-code-from node
 
-    - uses: actions/upload-artifact@v1 
-      with:
-        name: report
-        path: report
+#     - uses: actions/upload-artifact@v1 
+#       with:
+#         name: report
+#         path: report
