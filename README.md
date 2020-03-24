@@ -1,6 +1,6 @@
 # WebdriverIO | Cucumber | Docker
 
-Live Build Status:[![CircleCI](https://circleci.com/gh/rehmanuet/WebdriverIO-Cucumber-Dockerized.svg?style=shield&circle-token=bf079e74605c86c569a605e53262ec2803ef14ac)](<LINK>)
+Live Build Status:  [![CircleCI](https://circleci.com/gh/rehmanuet/WebdriverIO-Cucumber-Dockerized.svg?style=shield&circle-token=bf079e74605c86c569a605e53262ec2803ef14ac)](<LINK>)
 
 POC of WebdriverIO on React-Based application with Allure, Mocha, and Cucumber
 
