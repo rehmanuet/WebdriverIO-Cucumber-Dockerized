@@ -1,6 +1,8 @@
 # WebdriverIO | Cucumber | Docker | CircleCI
 
-Live Build Status:  [![CircleCI](https://circleci.com/gh/rehmanuet/WebdriverIO-Cucumber-Dockerized.svg?style=shield&circle-token=bf079e74605c86c569a605e53262ec2803ef14ac)](https://github.com/rehmanuet/WebdriverIO-Cucumber-Dockerized/blob/master/README.md)
+<sup>Live Build Status:</sup><br />
+[![CircleCI](https://circleci.com/gh/rehmanuet/WebdriverIO-Cucumber-Dockerized.svg?style=svg&circle-token=bf079e74605c86c569a605e53262ec2803ef14ac)](https://github.com/rehmanuet/WebdriverIO-Cucumber-Dockerized/blob/master/README.md) [![CircleCI](https://circleci.com/gh/rehmanuet/WebdriverIO-Cucumber-Dockerized.svg?style=shield&circle-token=bf079e74605c86c569a605e53262ec2803ef14ac)](https://github.com/rehmanuet/WebdriverIO-Cucumber-Dockerized/blob/master/README.md) [![GitHub](https://github.com/rehmanuet/WebdriverIO-Cucumber-Dockerized/workflows/CI/badge.svg)](https://github.com/rehmanuet/WebdriverIO-Cucumber-Dockerized/actions)
+
 
 POC of WebdriverIO on React-Based application with Allure, Mocha, and Cucumber
 
@@ -15,12 +17,10 @@ POC of WebdriverIO on React-Based application with Allure, Mocha, and Cucumber
 2- Chai Assertion with Promises Handling
 3- Mocha Framework with the blend of Jasmine Testing Framework
 4- Cucumber Layer with Chai Assertion
-5- Allure and Spec Reporter
-6- Logs Recording
-7- Suites Management
-8- Runner: Local (Native Chrome Driver) and Dockerized execution
-9- Docker Integration
-10- CircleCI Integration
+5- Allure and Spec Reporter with Logs management
+6- Runner: Local (Native Chrome Driver) and Dockerized execution
+7- Docker Integration
+8-CircleCI and GitHub Action CI/CD Integration
 ```
 
 
