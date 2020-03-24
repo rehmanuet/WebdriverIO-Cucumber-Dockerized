@@ -1,38 +1,24 @@
-version: 2
+name: CI
+
+on: [push]
+
 jobs:
   build:
-    docker:
-      - image: node:10
-      - image: vvoyer/selenium-standalone
-        name: selenium
-        environment:
-          HUB_PORT_4444_TCP_ADDR: hub
-          HUB_PORT_4444_TCP_PORT: 4444
-    working_directory: ~/repo
+    runs-on: ubuntu-latest
+
     steps:
-      - checkout
+    - uses: actions/checkout@v2
 
-      # Download and cache dependencies
-      - restore_cache:
-          keys:
-          - v1-dependencies-{{ checksum "package.json" }}
-          # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
+    - name: Pull docker images
+      run: docker-compose -f aaa.yml pull
 
-      - run: npm install
+    - name: Build docker images
+      run: docker-compose -f aaa.yml build
 
-      - save_cache:
-          paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
+    - name: Run tests
+      run: docker-compose -f aaa.yml up --abort-on-container-exit --exit-code-from node
 
-      # - run:
-      #     command: npm run start
-      #     background: true
-        
-      # run tests!
-      - run: npm run test
-
-      - store_artifacts:
-          path: ./errorShots/
-          when: always
+    - uses: actions/upload-artifact@v1 
+      with:
+        name: report
+        path: report
