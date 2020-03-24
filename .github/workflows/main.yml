@@ -1,24 +1,24 @@
 name: CI
-on:
-  push:
-    branches:
-      - master
-  pull_request:
+
+on: [push]
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
-      image: node:13.6
-    services:
-      chrome:
-        image: selenium/standalone-chrome:latest
-        env:
-          HUB_HOST: selenium
-          HUB_PORT: 4444
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v1.2.0
-      - name: Install
-        run: docker-compose up
-      - name: Lint
-        run: npm run test
+    - uses: actions/checkout@v2
+
+    - name: Pull docker images
+      run: docker-compose -f aaa.yml pull
+
+    - name: Build docker images
+      run: docker-compose -f aaa.yml build
+
+    - name: Run tests
+      run: docker-compose -f aaa.yml up --abort-on-container-exit --exit-code-from node
+
+    - uses: actions/upload-artifact@v1 
+      with:
+        name: report
+        path: report
