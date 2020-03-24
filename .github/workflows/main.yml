@@ -13,7 +13,7 @@ jobs:
       run: docker-compose -f docker-compose-ci.yml pull
 
     - name: Build docker images
-      run: docker-compose -f docker-compose-ci.yml.yml build
+      run: docker-compose -f docker-compose-ci.yml build
 
     - name: Run tests
-      run: docker-compose -f docker-compose-ci.yml.yml up --abort-on-container-exit --exit-code-from nod
+      run: docker-compose -f docker-compose-ci.yml up --abort-on-container-exit --exit-code-from nod
