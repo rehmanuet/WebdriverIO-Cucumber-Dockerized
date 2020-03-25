@@ -1,7 +1,7 @@
 # WebdriverIO | Cucumber | Docker | CircleCI | Travis CI
 
 <sup>Live Build Status:</sup><br />
-[![CircleCI](https://circleci.com/gh/rehmanuet/WebdriverIO-Cucumber-Dockerized.svg?style=svg&circle-token=bf079e74605c86c569a605e53262ec2803ef14ac)](https://github.com/rehmanuet/WebdriverIO-Cucumber-Dockerized/blob/master/README.md) [![CircleCI](https://circleci.com/gh/rehmanuet/WebdriverIO-Cucumber-Dockerized.svg?style=shield&circle-token=bf079e74605c86c569a605e53262ec2803ef14ac)](https://github.com/rehmanuet/WebdriverIO-Cucumber-Dockerized/blob/master/README.md) [![GitHub](https://github.com/rehmanuet/WebdriverIO-Cucumber-Dockerized/workflows/CI/badge.svg)](https://github.com/rehmanuet/WebdriverIO-Cucumber-Dockerized/actions)
+[![CircleCI](https://circleci.com/gh/rehmanuet/WebdriverIO-Cucumber-Dockerized.svg?style=svg&circle-token=bf079e74605c86c569a605e53262ec2803ef14ac)](https://github.com/rehmanuet/WebdriverIO-Cucumber-Dockerized/blob/master/README.md) [![CircleCI](https://circleci.com/gh/rehmanuet/WebdriverIO-Cucumber-Dockerized.svg?style=shield&circle-token=bf079e74605c86c569a605e53262ec2803ef14ac)](https://github.com/rehmanuet/WebdriverIO-Cucumber-Dockerized/blob/master/README.md) [![GitHub](https://github.com/rehmanuet/WebdriverIO-Cucumber-Dockerized/workflows/CI/badge.svg)](https://github.com/rehmanuet/WebdriverIO-Cucumber-Dockerized/actions)[![Build Status](https://travis-ci.org/rehmanuet/WebdriverIO-Cucumber-Dockerized.svg?branch=master)](https://travis-ci.org/rehmanuet/WebdriverIO-Cucumber-Dockerized)
 
 
 POC of WebdriverIO on React-Based application with Mocha, Cucumber, and Allure
