@@ -12,9 +12,7 @@ install:
 
 script: 
   - docker-compose -f docker-compose-ci.yml up
-  
-test:
   - npm run test
   
-after:
+after_script:
   - docker-compose down
