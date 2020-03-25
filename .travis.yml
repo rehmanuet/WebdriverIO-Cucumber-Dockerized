@@ -14,7 +14,7 @@ script:
   - docker-compose -f docker-compose-ci.yml up
   
 test:
-  - npm run test --abort-on-container-exit --exit-code-from node
+  - npm run test
   
 after:
   - docker-compose -f docker-compose-ci.yml down --abort-on-container-exit --exit-code-from node
