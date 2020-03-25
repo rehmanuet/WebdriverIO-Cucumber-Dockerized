@@ -1,26 +1,27 @@
-# WebdriverIO | Cucumber | Docker | CircleCI
+# WebdriverIO | Cucumber | Docker | CircleCI | Travis CI
 
 <sup>Live Build Status:</sup><br />
 [![CircleCI](https://circleci.com/gh/rehmanuet/WebdriverIO-Cucumber-Dockerized.svg?style=svg&circle-token=bf079e74605c86c569a605e53262ec2803ef14ac)](https://github.com/rehmanuet/WebdriverIO-Cucumber-Dockerized/blob/master/README.md) [![CircleCI](https://circleci.com/gh/rehmanuet/WebdriverIO-Cucumber-Dockerized.svg?style=shield&circle-token=bf079e74605c86c569a605e53262ec2803ef14ac)](https://github.com/rehmanuet/WebdriverIO-Cucumber-Dockerized/blob/master/README.md) [![GitHub](https://github.com/rehmanuet/WebdriverIO-Cucumber-Dockerized/workflows/CI/badge.svg)](https://github.com/rehmanuet/WebdriverIO-Cucumber-Dockerized/actions)
 
 
-POC of WebdriverIO on React-Based application with Allure, Mocha, and Cucumber
+POC of WebdriverIO on React-Based application with Mocha, Cucumber, and Allure
 
 ## Stack
 
-<img src="https://img.stackshare.io/service/4185/webdriver.io.png?raw=true?raw=true" width="100" height="100" /><img src="https://cdn.freebiesupply.com/logos/large/2x/cucumber-logo-png-transparent.png?raw=true" width="100" height="100" /><img src="https://camo.githubusercontent.com/c14c2f174870d15a031245b3d3cd57f648e50fb2/68747470733a2f2f7777772e706172616469676d616469676974616c2e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031372f30322f312e706e67?raw=true" height="100"/><img src="https://i.pinimg.com/originals/48/4d/9a/484d9a03c676a55671a9d257a48c4378.png?raw=true?raw=true" width="120" height="90" /><img src="https://images.ctfassets.net/k62me4xboi1l/55FkKC6k4E6I80qOOu2A0M/4b03468aed1c04a639acfa2c513cbcae/angular-sdk-03.svg" width="120" height="100" /><img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png?raw=true" width="100" height="90" />
+<img src="https://img.stackshare.io/service/4185/webdriver.io.png?raw=true?raw=true" width="90" height="90" /><img src="https://cdn.freebiesupply.com/logos/large/2x/cucumber-logo-png-transparent.png?raw=true" width="90" height="90" /><img src="https://camo.githubusercontent.com/c14c2f174870d15a031245b3d3cd57f648e50fb2/68747470733a2f2f7777772e706172616469676d616469676974616c2e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031372f30322f312e706e67?raw=true" height="90"/><img src="https://i.pinimg.com/originals/48/4d/9a/484d9a03c676a55671a9d257a48c4378.png?raw=true?raw=true" width="110" height="80" /><img src="https://images.ctfassets.net/k62me4xboi1l/55FkKC6k4E6I80qOOu2A0M/4b03468aed1c04a639acfa2c513cbcae/angular-sdk-03.svg" width="110" height="90" /><img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png?raw=true" width="90" height="90" /><img src="https://travis-ci.org/images/logos/TravisCI-Mascot-1.png?raw=true" width="90" height="90" />
 
 ## Features
 
 ```
-1- Implementation of React Based Application with Page object Model(3 - Layers)
-2- Chai Assertion with Promises Handling
-3- Mocha Framework with the blend of Jasmine Testing Framework
-4- Cucumber Layer with Chai Assertion
-5- Allure and Spec Reporter with Logs management
-6- Runner: Local (Native Chrome Driver) and Dockerized execution
-7- Docker Integration
-8-CircleCI and GitHub Action CI/CD Integration
+Application: ReactJS 
+Style: Page Object Model (3-Layers)
+Assertion: Chai Assertion with Promises Handling
+Framework: Mocha Framework and Jasmine Framework
+BDD: Cucumber
+Reporter: Allure Report and Spec Reporter
+Runner: Local (Native Chrome Driver) and Selenium Standalone Server
+Container: Docker
+CICD: CircleCI ,Travis CI and GitHub Action Pipeline
 ```
 
 

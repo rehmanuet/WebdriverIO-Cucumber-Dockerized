@@ -1,8 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"skipped","Fri Mar 20 16:27:57 PKT 2020","Fri Mar 20 16:27:57 PKT 2020","0","","Open Kayak (POM)","","Open Kayak (POM)","Dry Test to handle Chai-Promised-Assertion","Dry Test to handle Chai-Promised-Assertion",""
-"passed","Fri Mar 20 16:37:22 PKT 2020","Fri Mar 20 16:37:37 PKT 2020","15144","","Cucumber Check: open webpage","","Cucumber Check: open webpage","Then Click on Search","Then Click on Search",""
-"passed","Fri Mar 20 16:26:40 PKT 2020","Fri Mar 20 16:27:02 PKT 2020","22496","","Open Kayak (POM)","","Open Kayak (POM)","""before all"" hook","""before all"" hook",""
-"passed","Fri Mar 20 16:37:13 PKT 2020","Fri Mar 20 16:37:20 PKT 2020","6851","","Cucumber Check: open webpage","","Cucumber Check: open webpage","Given Open Google website","Given Open Google website",""
-"passed","Fri Mar 20 16:37:20 PKT 2020","Fri Mar 20 16:37:22 PKT 2020","1721","","Cucumber Check: open webpage","","Cucumber Check: open webpage","When User type the keyword NorthBay","When User type the keyword NorthBay",""
-"passed","Fri Mar 20 16:37:37 PKT 2020","Fri Mar 20 16:37:37 PKT 2020","2","","Cucumber Check: open webpage","","Cucumber Check: open webpage","Hook","Hook",""
-"passed","Fri Mar 20 16:27:02 PKT 2020","Fri Mar 20 16:27:57 PKT 2020","54285","","Open Kayak (POM)","","Open Kayak (POM)","should book a flight","should book a flight",""
