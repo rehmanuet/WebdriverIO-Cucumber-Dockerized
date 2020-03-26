@@ -44,7 +44,6 @@ A step by step procedure to run the project on local machine
 1) Clone the repo with "git clone https://github.com/rehmanuet/WebdriverIO-Cucumber-Dockerized.git"
 2) Open the cloned directory in VS Code.
 3) Execute "npm install" (It'll download all the dependencies mentioned in package.json)
-
 ```
 
 ## Execution on Local Machine (Peanut Butter)
