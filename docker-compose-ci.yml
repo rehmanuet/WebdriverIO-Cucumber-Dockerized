@@ -4,13 +4,13 @@ services:
     image: vvoyer/selenium-standalone
     ports:
       - "4444:4444/tcp"
-  app:
-    build: .
-    command: npm test
-    depends_on:
-      - selenium
-    links:
-      - selenium
+  # app:
+  #   build: .
+  #   command: npm test
+  #   depends_on:
+  #     - selenium
+  #   links:
+  #     - selenium
 
   node:
     container_name: e2e-tests-container
@@ -18,7 +18,7 @@ services:
       context: .
       dockerfile: ./dockerfile
     command: 
-      - npm test --exit
+      - npm run test
     volumes:
       - /dev/shm:/dev/shm
     environment:
