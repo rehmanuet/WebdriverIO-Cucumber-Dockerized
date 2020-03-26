@@ -17,6 +17,8 @@ services:
     build:
       context: .
       dockerfile: ./dockerfile
+    command: 
+      - npm test --exit
     volumes:
       - /dev/shm:/dev/shm
     environment:
