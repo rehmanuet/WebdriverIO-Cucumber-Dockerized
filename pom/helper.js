@@ -1,5 +1,7 @@
 const HomePage = require('../pom/utils.js');
+const chai = require("chai");
 
+var assert = chai.assert;
 
 const SearchPage = {
     startSearch: () => {
@@ -13,16 +15,10 @@ const SearchPage = {
             return HomePage.originField.isDisplayed() === true
         }, 10000, 'Text field is not be shown');
         HomePage.originField.click();
-        browser.pause(3000);
-        browser.keys("BCN");
-        browser.pause(3000);
-        browser.keys("\uE007");
-        browser.waitUntil(function () {
-            return HomePage.originField.getText() === 'Barcelona, Spain - Barcelona-El Prat'
-        }, 10000, 'Text is not Entered correctly');
 
     },
     setDate: () => {
+        
         HomePage.setFirstDate.click();
         browser.pause(3000);
         browser.keys("\ue004");
@@ -35,10 +31,15 @@ const SearchPage = {
     endSearch: () => {
 
         HomePage.searchFlight.click();
-        browser.pause(9000);
+        browser.waitUntil(function () {
+            return HomePage.errorMessage.isDisplayed() === true
+        }, 10000, 'Error Message is not shown');
+        assert.equal(HomePage.errorMessage.getText(), 'Please enter a city, hotel name or landmark.');
+
     }
 };
 module.exports = {
 
     SearchPage
+    
 };

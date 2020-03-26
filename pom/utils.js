@@ -33,6 +33,10 @@ class KayakPage {
         return $('//*[contains(@title, "Search hotels")]')
 
     }
+    get errorMessage() {
+        return $('.errorContent .errorMessages li')
+
+    }
 }
 
 

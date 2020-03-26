@@ -6,20 +6,20 @@ chai.use(chaiAsPromised);
 chai.should();
 
 
-describe("Open Kayak (POM)", function () {
+describe("Navigate to Kayak's Hotel Page", function () {
 
 
-    before("ddd", function () {
+    before("via browser", function () {
         browser.setTimeout({'implicit': 5000});
         browser.url('https://www.kayak.com/');
     });
 
-    it('should book a flight', () => {
+    it('should give an error popup on searching with empty location', () => {
         kayak.SearchPage.startSearch();
         kayak.SearchPage.setDate();
         kayak.SearchPage.endSearch()
     });
-    xit('Dry Test to handle Chai-Promised-Assertion', () => {
+    it.skip('Dry Test to handle Chai-Promised-Assertion', () => {
         browser.url('http://the-internet.herokuapp.com/dynamic_controls');
         $('.example #checkbox-example button').click();
         browser.waitUntil(() => {
