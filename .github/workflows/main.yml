@@ -15,11 +15,5 @@ jobs:
     - name: Build docker images
       run: docker-compose -f docker-compose-ci.yml build
 
-    - name: Up the container
-      run: docker-compose -f docker-compose-ci.yml up --abort-on-container-exit --exit-code-from node
-
     - name: Run tests
-      run: npm run test --abort-on-container-exit --exit-code-from node
-
-    - name: Down
-      run: npm run test --abort-on-container-exit --exit-code-from node
+      run: docker-compose -f docker-compose-ci.yml up --abort-on-container-exit --exit-code-from nodez
