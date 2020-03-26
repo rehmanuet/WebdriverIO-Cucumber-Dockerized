@@ -6,7 +6,7 @@ services:
       - "4444:4444/tcp"
   app:
     build: .
-    command: npm test
+    command: npm test --exit
     depends_on:
       - selenium
     links:
