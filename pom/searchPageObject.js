@@ -1,3 +1,6 @@
+const chai = require("chai");
+var assert = chai.assert;
+
 class KayakPage {
     get searchTab() {
         return $('[href="/hotels"]');
@@ -35,6 +38,33 @@ class KayakPage {
     }
     get errorMessage() {
         return $('.errorContent .errorMessages li')
+
+    }
+
+
+    startSearch() {
+        this.searchTab.click()
+
+        browser.waitUntil(function() {
+            return browser.getTitle() === 'Hotels: Find Cheap Hotel Deals & Discounts - KAYAK'
+        }, 10000, 'Hotel Page is not opened properly');
+        this.originField.waitForExist(5000);
+        this.originField.click();
+    }
+    setDate() {
+        this.setFirstDate.click();
+        browser.pause(3000);
+        browser.keys("\ue004");
+        browser.pause(2000);
+        browser.keys("\ue004");
+        const myEndDate = this.formatingDates(this.endDate);
+        browser.keys(myEndDate);
+    }
+
+    endSearch() {
+        this.searchFlight.click();
+        this.errorMessage.isDisplayed(10000)
+        assert.equal(this.errorMessage.getText(), 'Please enter a city, hotel name or landmark.');
 
     }
 }
