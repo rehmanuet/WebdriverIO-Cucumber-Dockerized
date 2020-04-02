@@ -53,7 +53,7 @@ class KayakPage {
     }
     setDate() {
         this.setFirstDate.click();
-        browser.pause(3000);
+        browser.pause(2000);
         browser.keys("\ue004");
         browser.pause(2000);
         browser.keys("\ue004");
@@ -64,7 +64,9 @@ class KayakPage {
     endSearch() {
         this.searchFlight.click();
         this.errorMessage.isDisplayed(10000)
+        browser.takeScreenshot()
         assert.equal(this.errorMessage.getText(), 'Please enter a city, hotel name or landmark.');
+        browser.pause(3000)
 
     }
 }

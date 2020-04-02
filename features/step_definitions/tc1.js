@@ -33,6 +33,6 @@ Then(/^I click the search button$/, () => {
 
 Then(/^I should see a list of search results$/, () => {
 
-	browser.pause(5000);
+	browser.pause(2000);
 
 });
